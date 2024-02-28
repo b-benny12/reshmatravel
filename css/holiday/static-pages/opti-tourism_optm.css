@@ -1,0 +1,5891 @@
+#langCurWeather {
+    border: 0 solid #ddd
+}
+
+.tourismSectionDynamicData h1 {
+    color: #0054a6;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.tourismSectionDynamicData h2 {
+    color: #0054a6;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.tourismSectionDynamicData h3 {
+    color: #0054a6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.tourismSectionDynamicData h4 {
+    color: #0C4DA2;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: WebRupee;
+    src: url(https://www.thomascook.in/css/holiday/css/fonts/WebRupee.V2.0.eot);
+    src: url(https://www.thomascook.in/css/holiday/css/fonts/WebRupee.V2.0.eot?#iefix) format('embedded-opentype');
+    src: local('WebRupee'), url(https://www.thomascook.in/css/holiday/css/fonts/WebRupee.V2.0.ttf) format('truetype'), url(https://www.thomascook.in/css/fonts/WebRupee.V2.0.woff) format('woff'), url(https://www.thomascook.in/css/fonts/WebRupee.V2.0.svg) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+    font-family: Poppins, Roboto !important;
+}
+
+.bg-h1,
+.bg-h2,
+.bg-h3 {
+    width: 36px
+}
+
+.paddtop30 {
+    padding-top: 30px
+}
+
+.tourismSectionDynamicData {
+    padding-top: 45px;
+    clear: both;
+    overflow: hidden;
+}
+
+.tourismSectionDynamicData.secondToursimSection,
+.tourismSectionDynamicData.ninteenToursimSection {
+    min-height: auto;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.tourismSectionDynamicData.secondToursimSection .tabs,
+.tourismSectionDynamicData.ninteenToursimSection .tabs {
+    top: 0px;
+}
+
+button.owl-prev span:hover {
+    color: white;
+    background-color: #0054a6;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+button.owl-next span:hover {
+    color: white;
+    background-color: #0054a6;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+}
+
+/* .owl-carousel .owl-nav button.owl-next:hover{
+    background-color: #0054a6;
+    color: white;
+} */
+
+.tourismSectionDynamicData a {
+    font-size: 13px;
+    color: #0C4DA2;
+    font-weight: 500;
+}
+
+.jcarousel-control-next,
+.jcarousel-control-prev {
+    -webkit-box-shadow: 0 0 0px #f0efe7;
+    -moz-box-shadow: 0 0 0px #f0efe7;
+    box-shadow: 0 0 0px #f0efe7 !important;
+}
+
+.tourismSectionDynamicData.thirdToursimSection {
+    padding-top: 30px;
+}
+
+.tourismSectionDynamicData.twntyToursimSection {
+    padding-top: 40px;
+}
+
+.tourismSectionDynamicData.fiveToursimSection {
+    padding-top: 55px;
+}
+
+.tourismSectionDynamicData.things-todo-section h2.pad-t-15 {
+    max-width: 200px;
+    white-space: normal;
+    margin-top: -10px;
+}
+
+@media screen and (-ms-high-contrast:active),
+(-ms-high-contrast:none) {
+    .visa_search_widget .carousel,
+    .visa_search_widget .carousel-inner {
+        position: static
+    }
+}
+
+.things_to_do_div_section ol {
+    padding-left: 15px;
+}
+
+.reach-arrow:before {
+    padding: 38px 0
+}
+
+.tourismSectionDynamicData.things-todo-section {
+    padding-top: 15px;
+}
+
+.jcarousel-control-next {
+    background-size: auto;
+    background-position: 458px 52px;
+    background-image: url(https://www.thomascook.inhttps://www.thomascook.in/images/footer-sprite.png)
+}
+
+.also_see ul li,
+.bdr-bottom,
+.tour_inclusive {
+    border-bottom: 1px solid #ddd
+}
+
+.holiday-form-search .col-lg-5 {
+    margin-left: 2%
+}
+
+.sin_details h2 {
+    color: #369 !important;
+    font-size: 24px !important;
+}
+
+.sin_details h3,
+.sin_details h3 span,
+.sin_details h4,
+.sin_details h4 span {
+    color: #333 !important;
+    font-size: 20px !important;
+}
+
+.arrow_bg span.left.carousel-control {
+    background-image: none;
+}
+
+.arrow_bg {
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+#PlacesToVisitCarousel {
+    height: 380px;
+}
+
+.container.tabs a:hover {
+    text-decoration: none !important;
+}
+
+.arrow_bg {
+    background-color: transparent;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    border: 1px solid #fff;
+    border-radius: 100px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.arrow_bg:first-of-type {
+    left: 30px;
+}
+
+.arrow_bg:last-of-type {
+    right: 40px;
+    left: auto;
+}
+
+a.text-capitalize.breadcrumb_prev_links {
+    color: #0e4fa3;
+    font-weight: bold;
+}
+
+.container.tabs a {
+    display: inline-block;
+    width: 14%;
+    height: 70px;
+    border-right: 1px solid #cdcdcd;
+}
+
+.place-description,
+.things-todo-section {
+    padding-top: 60px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.how-reach:last-child {
+    margin-right: 15px !important;
+    margin-left: 0;
+    padding: 0;
+}
+
+.best-time-visit {
+    padding-top: 60px;
+}
+
+#exclusiveDealsSection {
+    padding-top: 30px;
+}
+
+#howToReachCarousel .owl-stage {
+    width: 100% !important;
+}
+
+#howToReachCarousel .owl-item {
+    width: 100% !important;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.best-packages .best-domestic-view-more {
+    top: 74px;
+}
+
+.card-body .card-text ul {
+    display: none;
+}
+
+.best-time-view-more {
+    position: absolute;
+    right: 15px;
+    top: 55px;
+}
+
+.best {
+    margin-bottom: 30px;
+}
+
+.card-text p {
+    width: 330px;
+    height: auto;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 23px;
+}
+
+#banner .item.active {
+    height: 390px;
+}
+
+.top-header a {
+    font-size: 15px;
+}
+
+.how-to-reach-view-more {
+    position: absolute;
+    right: 8.5%;
+    top: 43px;
+}
+
+.visit-place .card {
+    border-radius: 20px;
+    height: 330px;
+    max-height: 330px;
+}
+
+.card-body .card-text p {
+    margin-bottom: 0;
+}
+
+.best-domestic-view-more {
+    position: absolute;
+    right: 8.5%;
+    top: -1px !important;
+}
+
+.more,
+.less {
+    font-size: 14px;
+    color: #0C4DA2;
+    font-weight: bold;
+}
+
+.read-more-text{
+    padding-top: 5px !important;
+}
+div#featuredBlogsCarousel .card {
+    height: 300px !important;
+}
+
+.placedetailblk.place-visit {
+    height: 345px !important;
+    max-height: 345px !important;
+    min-height: 345px !important;
+}
+
+.readmore_static {
+    font-size: 15px;
+}
+
+#banner .owl-nav {
+    position: static;
+}
+
+#banner .owl-nav button.owl-prev {
+    position: absolute;
+    top: 42%;
+    left: 3%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #fff !important;
+}
+
+#banner .owl-nav button.owl-next {
+    position: absolute;
+    top: 40%;
+    left: 94%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #fff !important;
+}
+
+#banner button.owl-prev span,
+#banner button.owl-next span {
+    position: relative;
+    top: -3px;
+    font-size: 40px;
+    color: #fff;
+}
+
+#exclusiveDealsSection1 {
+    padding-top: 0px;
+}
+
+button.owl-prev span,
+button.owl-next span {
+    position: relative;
+    top: -1px;
+    color: #333;
+    font-size: 26px;
+}
+
+h2.package {
+    color: #333 !important;
+    font-size: 20px;
+    margin: 0px 25px 0px 15px !important;
+}
+
+.photo-videos-btn-section {
+    padding-bottom: 40px;
+    padding-left: 30px;
+}
+
+button.li_me_select.video-btn {
+    display: none;
+}
+
+#descBestTimeToVisit.readmore_static.more_all_big_no {
+    overflow: hidden;
+}
+
+ol {
+    list-style-type: auto !important;
+}
+
+ol li {
+    list-style-type: auto !important;
+}
+
+.card-header {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.btn.btn-header-link.collapsed:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+div#faqhead1 .btn.btn-header-link.collapsed p:first-child {
+    text-align: left !important;
+    font-size: 16px !important;
+}
+
+div#faqhead1 .btn.btn-header-link.collapsed p:first-child:after {
+    content: "Q";
+    float: left;
+    font-size: 22px;
+    color: #9acbff;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: -5px;
+}
+
+div#faqhead1 .btn.btn-header-link.collapsed p:last-child {
+    text-align: left;
+    font-size: 14px;
+    padding-left: 33px;
+}
+
+div#faqhead1 .btn.btn-header-link.collapsed p:last-child:after {
+    content: "A";
+    float: left;
+    font-size: 22px;
+    color: #9acbff;
+    font-weight: bold;
+    margin-right: 15px;
+    position: absolute;
+    left: 22px;
+    top: 44px;
+}
+
+.place-to-visit-breadcrumb .breadcrumb_links {
+    position: absolute !important;
+    top: auto !important;
+}
+
+.currency-view-more {
+    position: absolute;
+    right: 0%;
+    top: 48px;
+}
+
+.owl-nav-view-more {
+    position: absolute;
+    right: 8.5%;
+    top: 73px;
+}
+
+.flex-property {
+    display: flex;
+}
+
+.container.tabs a:last-child {
+    border-right: none;
+}
+
+ul.bulletlist {
+    margin-left: 0 !important;
+}
+
+.bulletlist li {
+    width: 292px;
+    padding-top: 10px !important;
+}
+
+.bulletlist li:before {
+    display: none !important;
+}
+
+.container.marginTB .static-img-text h2 {
+    font-size: 16px;
+}
+
+.pad-b-20 {
+    padding-bottom: 20px;
+}
+
+.mar-0 {
+    margin: 0;
+}
+
+#Popular,
+#Trending {
+    float: left;
+}
+
+.flex-width {
+    flex-grow: 1;
+    height: 40px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.nav>li.active.flex-width>a {
+    width: 100%;
+    height: 40px;
+    display: inline-block;
+    background-color: blue !important;
+    color: #fff !important;
+    padding-top: 5px;
+}
+
+.month-txt {
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.faq-wrapper {
+    position: relative;
+    padding-right: 0;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.placedetailwraper {
+    padding-top: 30px !important;
+}
+
+.how-to-reach-txt {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.how-toreach-section {
+    color: #212529;
+    font-size: 13px;
+    padding-left: 35px;
+    display: inline-block;
+}
+
+.view-more-btn {
+    float: right;
+    color: #0C4DA2;
+    font-size: 13px;
+    border: 1px solid #0C4DA2;
+    border-radius: 5px;
+    padding: 2px 15px;
+    background: #fff;
+    font-weight: bold;
+}
+
+.readmore_static_no_more p {
+    font-family: Poppins !important;
+}
+
+.deals-img-txt,
+.deals-img-secondary-txt {
+    width: 146px;
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.deals-img-secondary-txt {
+    font-size: 14px;
+    padding-top: 0px;
+}
+
+.currency-view-more {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.static-img-container {
+    color: #444 !important;
+}
+
+.tourism-txt {
+    font-size: 20px;
+    color: #444;
+    font-weight: bold;
+}
+
+.deal-img {
+    width: 370px;
+    height: 160px;
+    border-radius: 10px;
+    margin-left: 0px;
+}
+
+ul.bulletlist li:nth-child(1),
+ul.bulletlist li:nth-child(2),
+ul.bulletlist li:nth-child(3),
+ul.bulletlist li:nth-child(4) {
+    border-bottom: 1px solid #ccc;
+}
+
+#recommendedHolidays {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: inherit;
+}
+
+.pagetxt.readmore_static {
+    padding-bottom: 40px !important;
+}
+
+#recommendedHolidays li {
+    width: auto;
+}
+
+.how-to-reach-txt {
+    color: #333;
+    font-weight: bold;
+}
+
+.photo-video-section {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border-radius: 14px;
+    max-width: 350px
+}
+
+#exclusuveDealsCarousel .deals-img img {
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.currency-head-txt {
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+span.price+span {
+    font-weight: bold;
+    color: #0c4da2;
+    padding-right: 5px;
+}
+
+.accordion {
+    clear: both;
+}
+
+.faq-view-more {
+    position: absolute;
+    right: 0px;
+    top: 45px;
+}
+
+.currency-name-txt {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    src: url(/fonts/Poppins-Regular.ttf);
+    src: local("Poppins Light"), local("Poppins-Light"), url(/fonts/Poppins-Regular.ttf?#iefix) format("embedded-opentype")
+}
+
+@font-face {
+    font-family: Poppins-medium;
+    font-style: normal;
+    font-weight: 300;
+    src: url(/fonts/Poppins-Medium.ttf);
+    src: local("Poppins Medium"), local("Poppins-Medium"), url(/fonts/Poppins-Medium.ttf?#iefix) format("embedded-opentype")
+}
+
+.card-text {
+    color: #000;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+.card-text.place-visit-txt {
+    color: #000;
+    max-height: 52px;
+    overflow: hidden;
+}
+
+.tc_first_summary {
+    position: relative;
+}
+
+div#bestTimeToVisitDest .more-link {
+    /* position: absolute; */
+    left: 0;
+    top: 66px;
+    text-transform: capitalize;
+    font-size: 13px;
+    margin-left: 4px;
+}
+
+.more-link {
+    text-transform: capitalize;
+    font-size: 13px;
+    color: #0C4DA2;
+    font-weight: 500;
+}
+
+.best-domestic-package-section .card {
+    height: 276px !important;
+}
+
+.seasons.marR10-besttimetovisit:nth-child(4),
+.seasons.marR10-besttimetovisit:nth-child(5) {
+    display: none;
+}
+
+.container.tabs a:last-child {
+    border-right: 0 !important;
+}
+
+.placedetailblk_hrf_static {
+    text-decoration: none !important;
+}
+
+.tourismSectionDynamicData .tab-active {
+    background: #e5e6ee;
+    width: auto;
+    padding-left: 0 !important;
+    color: #0c4da2 !important;
+}
+
+.placedetailblk.image {
+    min-height: 250px !important;
+    max-height: 250px !important;
+}
+
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+.owl-nav {
+    position: absolute;
+    right: 0px;
+    top: -36px;
+}
+
+.placesToVisitSection {
+    padding-top: 0px;
+}
+
+.place-to-visit-view-more {
+    position: absolute;
+    right: 8.5%;
+    top: 45px;
+}
+
+.footer-top {
+    margin-top: 40px;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    width: 30px;
+    height: 30px;
+    font-size: 26px !important;
+    position: relative;
+    left: -12px;
+    top: -10px;
+    border: 1px solid #ccc !important;
+    border-radius: 8px;
+}
+
+.owl-carousel .owl-nav button.owl-prev:focus,
+.owl-carousel .owl-nav button.owl-next:focus,
+.view-more-btn:focus {
+    outline: none !important;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    width: 30px;
+    height: 30px;
+    font-size: 26px !important;
+    position: relative;
+    left: -4px;
+    top: -10px;
+    border: 1px solid #ccc !important;
+    border-radius: 8px;
+}
+
+.things-todo-txt {
+    white-space: nowrap;
+}
+
+.activities-section {
+    padding-left: 25px;
+}
+
+.pad-t-15 {
+    padding-top: 15px;
+}
+
+.pad-l-15 {
+    padding-left: 15px;
+}
+
+.activities-section div {
+    border: 1px solid #ccc;
+    width: 170px;
+    height: 58px;
+    text-align: left;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.things-todo {
+    display: inline-block;
+    width: 70px;
+    height: 49px;
+}
+
+.attraction {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 182px 354px;
+}
+
+.activities {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 190px 285px;
+}
+
+.shopping {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 394px 207px;
+}
+
+.foodItem {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 322px 207px;
+}
+
+.nightLifes {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 260px 207px;
+}
+
+.activities-section a {
+    color: #000;
+}
+
+.dropdown-menu.login_dropdown.show {
+    right: 70% !important;
+    left: auto !important;
+}
+
+.optional {
+    display: none;
+}
+
+.border_gray {
+    border: 1px solid #d0d0d0;
+    padding: 0px 0 !important;
+    height: auto;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    max-height: 368px !important;
+    height: 100% !important;
+}
+
+.tour_inclusive.pdp_details_srp_data li.bg-icon1.no_available_data_click_pdp_li {
+    background-position: -10px -123px
+}
+
+.tour_inclusive.pdp_details_srp_data li.bg-icon2.no_available_data_click_pdp_li {
+    background-position: -68px -123px
+}
+
+.tour_inclusive.pdp_details_srp_data li.bg-icon3.no_available_data_click_pdp_li {
+    background-position: -10px -181px
+}
+
+.tour_inclusive.pdp_details_srp_data li.bg-icon4.no_available_data_click_pdp_li {
+    background-position: -68px -181px
+}
+
+.tour_inclusive.pdp_details_srp_data li.bg-icon5.no_available_data_click_pdp_li {
+    background-position: -126px -123px
+}
+
+.tour_inclusive.pdp_details_srp_data li.bg-icon6.no_available_data_click_pdp_li {
+    background-position: -126px -181px
+}
+
+.tour_inclusive.pdp_details_srp_data li.no_available_data_click_pdp_li {
+    pointer-events: none;
+    background: url(/images/holiday/sotc-static/inclusion_sprites.png) -20px -80px no-repeat !important;
+}
+
+.wrapper {
+    clear: both;
+}
+
+.jcarouselSliderData li {
+    width: 390px !important;
+    float: left;
+    height: 368px;
+    max-height: 368px !important;
+    overflow: hidden;
+    margin-bottom: 0;
+    margin-right: 0px;
+}
+
+.recommended-holiday.wrapper {
+    position: relative;
+    min-height: 300px;
+}
+
+.PhotoGallery {
+    overflow: hidden !important;
+    padding: 10px 0 !important;
+    /* margin-top: 25px !important; */
+    background: none !important;
+    border-top: none !important;
+    position: relative;
+}
+
+.currency-txt .more-link {
+    position: static
+}
+
+.body-outerwrapper p span {
+    font-size: 14px !important;
+}
+
+div#banner .item.active {
+    height: 390px
+}
+
+.tabs-border {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    overflow: hidden;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-shadow: 0 12px 19px rgb(0 0 0 / 10%);
+    margin-bottom: 0px;
+}
+
+.tabs-border.other-tabs {
+    margin-bottom: 0px;
+}
+
+div#stickThis {
+    position: relative;
+}
+
+div#stickThis .container.clearfix {
+    padding: 0;
+    background-color: rgb(44 53 34 / 50%);
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    clear: both;
+    z-index: 9;
+    height: auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.seasons.marR10-besttimetovisit:first-child {
+    background: #fed865;
+    width: 29% !important;
+    max-width: 29% !important;
+    height: 170px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.seasons.marR10-besttimetovisit:nth-child(2) {
+    background: #323c48;
+    color: #fff;
+    width: 29% !important;
+    max-width: 29% !important;
+    height: 170px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.seasons.marR10-besttimetovisit:nth-child(3) {
+    background: #339fb6;
+    width: 29% !important;
+    max-width: 29% !important;
+    height: 170px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.seasons .temp {
+    padding: 10px 0 0 !important;
+}
+
+.card-text ul {
+    display: none;
+}
+
+.month-txt {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-left: 20%;
+}
+
+.more-text.paddbot15 {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.temp-txt {
+    font-size: 19px;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.ladakh-weather-txt {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+.month-box-section {
+    padding: 0;
+    width: 55% !important;
+    max-width: 55%;
+    padding-left: 0 !important;
+}
+
+.travel-season-box {
+    max-width: 43%;
+    margin-left: -15px;
+}
+
+.travel-season-txt {
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+}
+
+.travel-months-txt {
+    border: 1px solid #ccc;
+    padding: 0px 30px 10px 15px !important;
+    border-radius: 5px 0 0 5px;
+}
+
+.travel-month-txt {
+    width: 46px !important;
+    height: 46px !important;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/seasons_sprites.png) -70px -8px no-repeat !important;
+    margin-top: 15px !important;
+}
+
+.travel-months {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    height: 70px !important;
+    overflow: hidden;
+}
+
+.line-15 {
+    line-height: 15px;
+}
+
+.seasons span.font13 {
+    font-size: 14px !important;
+    font-weight: bold;
+    padding-top: 18px;
+}
+
+.travel-months-img {
+    width: 50px !important;
+    height: 692px;
+    margin-top: 10px !important;
+}
+
+.first-quarter {
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/seasons_sprites.png) -70px -10px no-repeat !important;
+}
+
+.second-quarter {
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/seasons_sprites.png) -60px -66px no-repeat !important;
+}
+
+.third-quarter {
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/seasons_sprites.png) -60px -63px no-repeat !important;
+}
+
+.btn {
+    white-space: normal;
+}
+
+div#outer-box.mob-form {
+    display: none;
+}
+
+.fleft {
+    float: left;
+}
+
+.close-icon {
+    display: none;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.clear {
+    clear: both;
+}
+
+.formtext {
+    font-size: 13px;
+    width: 190px;
+    line-height: 14px;
+    padding-left: 15px;
+    margin-right: 10px;
+    padding-bottom: 8px;
+    color: #fff;
+}
+
+.formtext span {
+    font-size: 14px;
+    display: block;
+    text-transform: none;
+    margin: 0;
+}
+
+form.formfield-container {
+    width: 970px;
+    float: left;
+}
+
+.formfield-wrapper {
+    width: 970px;
+    padding-left: 5px;
+}
+
+.formfield-text {
+    color: #000;
+    margin: 4px 0 0 0;
+}
+
+.crm_form_static_area.have_quries_form_first {
+    width: 360px;
+    float: left;
+}
+
+.fill-form {
+    font-size: 13px !important;
+    padding-top: 6px;
+}
+
+.crm_form_static_area.have_quries_form_first .formfield.ibvm {
+    width: 58%;
+    float: left;
+    margin: 0;
+}
+
+.crm_form_static_area.have_quries_form_first .formfield.ibvm:last-child {
+    width: 42%;
+}
+
+.crm_form_static_area.have_quries_form_first input#staticPageemail {
+    border-radius: 5px 0 0 5px;
+}
+
+input#staticPagemobile {
+    border-radius: 0 5px 5px 0;
+}
+
+.formfield input {
+    background: #fff;
+    padding: 6px;
+    border: 0;
+    border-radius: 0px;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    height: 34px;
+}
+
+.formfield-text input {
+    margin: 0 5px 0 0;
+}
+
+.ibvm {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.crm_form_static_area.have_quries_form_second {
+    width: 460px;
+    float: left;
+    margin-left: 10px;
+}
+
+input#staticPagemobile {
+    border-radius: 0 5px 5px 0;
+}
+
+select#selectDestination,
+select#holidayType,
+select#selectHub {
+    height: 34px;
+    font-size: 14px;
+}
+
+.destination-width {
+    width: 165px;
+}
+
+select#selectHub {
+    border-radius: 0 5px 5px 0;
+}
+
+.crm_form_static_area.have_quries_form_second .formfield.ibvm {
+    width: 140px;
+    margin: 0;
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
+}
+
+.crm_form_static_area.have_quries_form_second .formfield.ibvm select#holidayType {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#searchWidgetCarousel .carousel-control {
+    content: " ";
+    border: 1px solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px 5px;
+    top: 4px;
+    opacity: 1;
+}
+
+#searchWidgetCarousel .carousel-control.left {
+    transform: rotate(130deg);
+    -webkit-transform: rotate(130deg);
+    left: 15px;
+    background-image: none;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+    transform: rotate(315deg);
+    -webkit-transform: rotate(315deg);
+    right: 15px;
+    background-image: none;
+}
+
+.font22 {
+    font-size: 18px
+}
+
+.breadcrumb_links li {
+    width: auto !important;
+}
+
+.package-box a:hover {
+    color: #fff
+}
+
+.bottom_static_pages {
+    margin-bottom: 25px;
+    overflow: hidden;
+    clear: both;
+    float: none
+}
+
+.visa_testimonials {
+    background-color: #28374a;
+    background-image: url(https://www.thomascook.in/css/images/testi-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center
+}
+
+.second_section_honeymoon {
+    background: #f7f7f7
+}
+
+.holiday-map .visa_search_widget .carousel .item {
+    background-position: 0 90px
+}
+
+.tab-content>.active {
+    display: block;
+}
+
+.visa_search_widget {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.static-breadcrumb {
+    top: 50px !important;
+}
+
+.banner_bottom li:last-child:after {
+    content: ''
+}
+
+.bulletlist li {
+    position: relative;
+    padding: 0 0 10px 20px
+}
+
+.HoneymoonDesti h2,
+.gallery_blog h2 {
+    font-size: 18px !important;
+    margin-bottom: 10px;
+    color: #0054a6;
+}
+
+.static-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 50px;
+}
+
+.PhotoGallery h2,
+.PhotoGallery h3 {
+    margin: 10px auto;
+    font-size: 14px;
+    color: #333;
+    text-align: left
+}
+
+.static-img-text h2 {
+    font-size: 24px;
+}
+
+.h2,
+h2 {
+    font-size: 24px
+}
+
+.honeymoon_package_destination h2 {
+    text-align: center;
+    color: #0054a6;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.Honeymoon_travel,
+.PhotoGallery,
+.honeymoon_international_packages .PhotoGallery,
+.honeymoon_package_destination {
+    padding: 30px 0 0
+}
+
+.title_details_video {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 15px
+}
+
+.mob-view-more {
+    display: none;
+}
+
+h2.video_honeymoon_titles {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px
+}
+
+.img_play_with_text_video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    margin-left: -253px;
+    margin-top: -101px;
+    cursor: pointer
+}
+
+.banner_bottom {
+    vertical-align: middle
+}
+
+.block_br_section {
+    display: block
+}
+
+.honeymoonHead {
+    color: #333 !important;
+    font-size: 20px !important;
+}
+
+.banner_bottom .jcarousel-wrapper a:focus {
+    outline: 0;
+    outline-offset: 0
+}
+
+@media screen AND (min-width: 320px) AND (max-width:767px) {
+    .tourismSectionDynamicData.things-todo-section h2.pad-t-15 {
+        max-width: 100%;
+    }
+    .jcarouselSliderData li {
+        height: 455px;
+        max-height: 455px !important;
+    }
+    #langCurWeather .seasons:nth-child(1),
+    #langCurWeather .seasons:nth-child(3),
+    #langCurWeather .seasons:nth-child(5),
+    .lang_spok {
+        border-right: 1px solid #ddd
+    }
+    .arrow_bg {
+        display: none;
+    }
+    .deal-img {
+        width: 95% !important;
+    }
+    .breadcrumb_links {
+        display: none;
+    }
+    .enquiry-icon {
+        background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/tourism-mobile-icons.png) -66px -7px;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 16px;
+        display: inline-block;
+        background-size: 200px;
+        position: relative;
+        top: 3px;
+    }
+    .call-icon {
+        background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/tourism-mobile-icons.png) -35px -7px;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 16px;
+        display: inline-block;
+        background-size: 200px;
+        position: relative;
+        top: 3px;
+    }
+    #bestDomesticPackagesCarousel,
+    #bestInternationalPackagesCarousel,
+    #featuredBlogsCarousel {
+        padding-top: 15px !important;
+    }
+    .tourismSectionDynamicData.PhotoGallery h2 {
+        padding-left: 15px;
+    }
+    #photos img,
+    .youtube iframe {
+        min-height: 130px !important;
+        max-height: 130px !important;
+        border-radius: 10px;
+    }
+    div#photos .placedetailblk.image {
+        min-height: 130px !important;
+        margin-right: 12px !important;
+        width: 46% !important;
+        max-height: 130px !important;
+    }
+    div#banner .item.active {
+        height: 290px !important
+    }
+    .flex-property {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .placetovisitleftblk.sight_seeing_content_data,
+    .placetovisitrightblk.crm_form_right_section {
+        float: none;
+        width: 100%;
+        z-index: -1;
+    }
+    .placetovisitrightblk {
+        position: static;
+        bottom: auto;
+    }
+    .placetovisitrightblk {
+        float: right;
+        width: 28%;
+        padding: 13px 0 0 0;
+        bottom: 143px;
+        max-width: 375px;
+        top: 108px;
+    }
+    .bgcolrblk {
+        background: #4a4a4a;
+        width: 100%;
+        height: 100vh;
+        z-index: 99;
+        position: fixed;
+        top: 57px;
+        display: none;
+        margin-left: -20px;
+    }
+    .form-wrapper-no {
+        position: fixed;
+        bottom: -100%;
+        width: 100%;
+        z-index: 9999999;
+        transition: all 1s ease;
+        overflow: scroll;
+        padding: 0 0 5px 0;
+        height: 100%;
+        left: 0;
+        right: 0;
+        background: #000;
+        padding-top: 30px;
+    }
+    .form-wrapper,
+    .form-wrapper-no {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .form-wrapper .close-icon,
+    .form-wrapper-no .close-icon {
+        background: url(/images/icons/close-icon.png) no-repeat 0 0;
+        width: 32px;
+        height: 32px;
+        float: right;
+        cursor: pointer;
+        margin: 20px 0 20px 0;
+        display: block;
+        position: relative;
+        top: 28px !important;
+        right: 0 !important;
+    }
+    .close-icon {
+        top: 18px;
+    }
+    .placetovisitrightblk.crm_form_right_section .con_btn {
+        border: 1px solid #0094da;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        background: #1fbdff;
+        width: 100%;
+        font-weight: 500;
+        padding: 11px 0;
+        border-radius: 3px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+    .clear {
+        clear: both;
+    }
+    .things-pack.placedetailblk.place-visit {
+        width: 100% !important;
+    }
+    .placedetailblk.place-visit {
+        width: 100% !important;
+    }
+    #outer-box {
+        margin-left: 0;
+    }
+    #outer-box {
+        /* display: none !important; */
+        /* position: relative;
+        margin-left: 0; */
+    }
+    .form-title {
+        display: block;
+    }
+    .enqurformblk {
+        padding: 20px;
+        border-bottom: none;
+    }
+    .nav-justified>li>a,
+    .nav-tabs.nav-justified>li>a {
+        text-align: left !important;
+    }
+    .form-head {
+        display: none;
+    }
+    div#outer-box.mob-form {
+        display: block !important;
+    }
+    .placetovisitrightblk.crm_form_right_section .enqurformblk .form-cont {
+        padding: 0;
+    }
+    .formfield-text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .input-container {
+        position: relative;
+        border-top: 0;
+        text-align: left;
+        margin-bottom: 18px;
+    }
+    .placetovisitrightblk.crm_form_right_section .form-control {
+        border-bottom: 1px solid #ccc;
+        box-shadow: inset 0 0 0 rgb(0 0 0 / 8%);
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    input[type=checkbox].css-checkbox {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+    }
+    input[type=checkbox].css-checkbox:checked+label.css-label {
+        margin-top: 7px;
+    }
+    input[type=checkbox].css-checkbox:checked+label.css-label {
+        background-position: -375px -136px;
+        width: 18px;
+        height: 18px;
+    }
+    input[type=checkbox].css-checkbox+label.css-label {
+        padding-left: 25px;
+        display: inline-block;
+        line-height: 18px;
+        background-repeat: no-repeat;
+        font-size: 14px;
+        vertical-align: middle;
+        cursor: pointer;
+    }
+    .css-label,
+    .lite-blue-check {
+        background: url(/images/common_sprite.png) -375px -116px no-repeat;
+        width: 18px;
+        height: 18px;
+    }
+    .sendenqbutblk {
+        display: block;
+    }
+    .sendenqbutblk {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .con_btn {
+        border: 1px solid #0094da;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: #fff;
+        background: #1fbdff;
+        width: 100%;
+        font-weight: 500;
+        padding: 11px 0;
+        border-radius: 3px;
+        cursor: pointer;
+        letter-spacing: 1px;
+        margin: 10px;
+    }
+    #outer-box #inner-box,
+    #outer-box:hover #inner-box {
+        opacity: .9;
+        transition: opacity .5s;
+    }
+    #outer-box #inner-box {
+        background: #fff;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        padding: 30px;
+        display: none;
+    }
+    .form-title {
+        color: #8d8b8b;
+        background: #fff;
+        font-size: 18px;
+        padding: 13px 20px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        text-transform: uppercase;
+        -moz-box-shadow: inset 0 -11px 20px -10px #ccc;
+        -webkit-box-shadow: inset 0 -11px 20px -10px #ccc;
+        box-shadow: inset 0 -11px 20px -10px #ccc;
+        line-height: 22px;
+        position: relative;
+    }
+    form.formfield-container {
+        width: 100%;
+        float: none;
+    }
+    .enqurformblk {
+        background: #fff;
+    }
+    .mob-form-sec {
+        display: block;
+        background: #53b2d7;
+        background: -moz-linear-gradient(top, #53b2d7 2%, #3380b8 100%);
+        background: -webkit-linear-gradient(top, #53b2d7 2%, #3380b8 100%);
+        background: linear-gradient(to bottom, #53b2d7 2%, #3380b8 100%);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 101;
+    }
+    #recommendedHolidays li {
+        margin-left: 0 !important;
+        width: 310px !important;
+        /* min-height: 450px; */
+    }
+    .jcarousel img {
+        max-width: 290px;
+    }
+    .gallery_blog h2 {
+        font-size: 18px !important;
+        color: #0054a6;
+    }
+    .container-fluid.mpadd-remove {
+        margin-bottom: 0px;
+        padding-right: 0;
+    }
+    .tourismSectionDynamicData.secondToursimSection,
+    .tourismSectionDynamicData.ninteenToursimSection {
+        padding-bottom: 0px;
+    }
+    .HoneymoonDesti .container {
+        padding-left: 0
+    }
+    .more-link {
+        top: 100% !important;
+    }
+    .container.tabs {
+        width: 100% !important;
+        margin-left: 0px;
+        margin-right: -15px;
+        top: -15px;
+    }
+    .visit-place .card {
+        width: auto !important;
+    }
+    .tc_visa_page ul li {
+        width: 100% !important;
+    }
+    .visitfildwrap {
+        padding-top: 20px;
+        display: block !important;
+    }
+    .init_all_label {
+        padding-bottom: 20px;
+    }
+    .month-box-section {
+        width: auto !important;
+        max-width: 100% !important;
+        padding-left: 0 !important;
+        display: flex;
+    }
+    .seasons.marR10-besttimetovisit:first-child {
+        width: 30% !important;
+        max-width: 100% !important;
+        margin-bottom: 20px;
+        margin-right: 10px !important;
+    }
+    .seasons.marR10-besttimetovisit:nth-child(2) {
+        width: 33% !important;
+        max-width: 100% !important;
+        margin-bottom: 20px;
+        margin-right: 10px !important;
+    }
+    .seasons.marR10-besttimetovisit:nth-child(3) {
+        width: 33% !important;
+        max-width: 100% !important;
+        margin-bottom: 20px;
+        margin-right: 0px !important;
+    }
+    .bg-h1 {
+        margin-top: 22px !important;
+        margin-bottom: 22px !important;
+    }
+    .bg-h4 {
+        background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) -308px -226px no-repeat !important;
+    }
+    .travel-months-txt {
+        height: 60px;
+    }
+    .travel-season-box {
+        max-width: 100% !important;
+        clear: both;
+    }
+    .travel-season-txt {
+        position: static;
+    }
+    .list-unstyled {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .width-100 {
+        width: 100% !important;
+    }
+    .li_me_select {
+        margin-bottom: 15px !important;
+    }
+    .placedetailblk {
+        width: 48% !important;
+        min-height: 160px !important;
+        max-height: 160px !important;
+    }
+    .placedetailblk:nth-child(even) {
+        margin-right: 0 !important;
+        width: 48%;
+    }
+    .card-text p {
+        width: 280px !important;
+    }
+    #banner .owl-nav {
+        display: none;
+    }
+    .enquire-sec,
+    .call-sec {
+        padding: 10px 0;
+        width: 50%;
+        text-align: center;
+        float: left;
+    }
+    .enquire-sec {
+        background: #1a2162;
+    }
+    .call-sec {
+        background: #ffde00;
+    }
+    .enquire-sec a {
+        color: #fff !important;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .call-sec a {
+        color: #000 !important;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    div#PlacesToVisitCarousel .visit-place .card {
+        width: 290px !important;
+    }
+    div#PlacesToVisitCarousel .owl-nav {
+        display: block;
+    }
+    .place-description,
+    .things-todo-section {
+        padding-right: 15px !important;
+    }
+    .border_gray {
+        width: 292px;
+        max-height: 382px !important;
+    }
+    .mob-place-to-visit {
+        margin-top: 50px !important;
+    }
+    .top-header.bootstrap4 .dropdown-menu.login_dropdown {
+        right: 0 !important;
+        top: 5px !important;
+    }
+    ul.bulletlist li:nth-child(1),
+    ul.bulletlist li:nth-child(2),
+    ul.bulletlist li:nth-child(3),
+    ul.bulletlist li:nth-child(4) {
+        width: 360px;
+    }
+    #tabs li {
+        width: 33% !important;
+        height: 60px !important;
+        line-height: 17px !important;
+        font-size: 14px !important;
+    }
+    /* .photo-video-section{
+        width: 126px !important;
+    } */
+    .breadcrumb_links ul li {
+        width: auto !important;
+    }
+    #howToReachLocation .owl-stage {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #howToReachLocation .owl-nav {
+        display: none;
+    }
+    .mob-view-more {
+        display: block !important;
+        border: 1px solid #0e4fa3;
+        height: 36px;
+        text-align: center;
+        background: #fff;
+        color: #0e4fa3;
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+    .activities-section div {
+        width: 155px;
+        margin-right: 10px;
+        margin-bottom: 15px;
+        padding-left: 10px !important;
+    }
+    .currency-name-txt {
+        padding-top: 10px !important;
+        padding-bottom: 0 !important;
+    }
+    #descBestTimeToVisit h3 {
+        margin-bottom: 10px !important;
+    }
+    #PlacesToVisitCarousel {
+        height: 375px !important;
+        padding-top: 15px !important;
+    }
+    .tabs {
+        top: -15px;
+    }
+    #exclusiveDealsSection1 {
+        padding-top: 15px !important;
+    }
+    .tabs-border {
+        border: none;
+        overflow: initial;
+        border-radius: 0 !important;
+        margin-bottom: 5px;
+    }
+    /* .secondToursimSection {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+    } */
+    #bestTimeToVisitDest .row {
+        display: block !important;
+    }
+    .card-body .card-titlet {
+        padding-bottom: 10px !important;
+    }
+    .how-reach {
+        padding: 0 !important;
+    }
+    .activities-section {
+        padding-left: 0 !important;
+        margin-top: 15px !important;
+    }
+    .ans-txt {
+        padding-left: 30px;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        border-radius: 50px;
+    }
+    .owl-nav {
+        position: static;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .view-more-btn {
+        display: none;
+    }
+    .best-time-view-more {
+        right: 15px;
+    }
+    .mpadd-remove {
+        padding: 0;
+    }
+    .readmore_static p {
+        font-size: 12px !important;
+    }
+    .sin_details h4 {
+        font-size: 15px !important;
+    }
+    .tab-active {
+        width: auto !important;
+    }
+    .container.tabs a {
+        width: 116px !important;
+        height: 40px;
+        border-right: 0 !important;
+    }
+    .main_menu_div .nav>li {
+        display: block !important;
+        width: auto !important;
+    }
+    .bootstrap4_footer .main_menu_div .nav>li a span {
+        float: right !important;
+    }
+    .static-img-container {
+        font-size: 11px;
+    }
+    #langCur {
+        padding: 0 9px;
+        margin-bottom: 0 !important
+    }
+    #langCurWeather .seasons {
+        height: auto;
+        padding: 20px 0
+    }
+    #langCurWeather {
+        margin-bottom: 30px;
+        padding: 0
+    }
+    .mob-LRpadding {
+        padding: 0 15px
+    }
+    #langCurWeather .season {
+        padding: 20px 0
+    }
+    .lang_spok {
+        height: 100%;
+        min-height: 84px;
+        padding: 10px 0
+    }
+    .currency-used {
+        padding: 10px 15px
+    }
+    .bdr-right,
+    .bdr_left {
+        border: none
+    }
+    .visa_testimonials .container {
+        width: 100%
+    }
+    .also_see ul li {
+        padding: 10px 0 10px 10px
+    }
+    .also_see li:after {
+        margin-right: 5px
+    }
+    .QueriesForm {
+        margin: 0
+    }
+    .search_box,
+    .wid875 {
+        width: 100% !important
+    }
+    .marR10 {
+        margin-right: 0
+    }
+    .bdr_left {
+        padding-right: 10px !important;
+        padding-left: 0
+    }
+    .banner_bottom,
+    .banner_bottom .container {
+        padding: 0
+    }
+    .block_br_section {
+        display: initial
+    }
+    .banner_bottom {
+        height: auto;
+        position: relative;
+        background: #f2f0f1
+    }
+    .banner_bottom .jcarousel-wrapper {
+        margin: 0 25px 0 0
+    }
+    .forex_all_tabs .title {
+        display: none
+    }
+}
+
+@media screen AND (min-width: 768px) AND (max-width:1023px) {
+    .search_box_wrap,
+    .visa_testimonials .container {
+        width: 650px
+    }
+    .search_box,
+    .wid875 {
+        width: 100% !important
+    }
+    .arrow_bg:first-of-type {
+        left: 25px
+    }
+    .arrow_bg:last-of-type {
+        right: 25px
+    }
+    .choose_your_currency:after,
+    .enter_details:after {
+        max-width: 70px;
+        right: -31px
+    }
+    .also_see {
+        padding: 0 15px
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    #langCurWeather {
+        border: 1px solid #ddd;
+        overflow: hidden;
+    }
+    #langCurWeather .seasons:nth-child(3),
+    #langCurWeather .seasons:nth-child(4),
+    #langCurWeather .seasons:nth-child(5) {
+        border-top: 1px solid #ddd;
+    }
+    .season-main {
+        padding: 0;
+    }
+    #langCur {
+        padding: 0px 9px;
+    }
+    #langCurWeather .seasons {
+        height: auto;
+        padding: 20px 0;
+    }
+    #langCurWeather .seasons:nth-child(1),
+    #langCurWeather .seasons:nth-child(3),
+    #langCurWeather .seasons:nth-child(5) {
+        border-right: 1px solid #ddd;
+    }
+    #langCurWeather {
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+    .mob-LRpadding {
+        padding: 0px 15px;
+    }
+    #langCur {
+        margin-bottom: 0px !important;
+    }
+    #langCurWeather .season {
+        padding: 20px 0;
+    }
+    .lang_spok {
+        border-right: 1px solid #ddd;
+        height: 100%;
+        min-height: 84px !important;
+        padding: 10px 0 10px 0px !important;
+    }
+    .currency-used {
+        padding: 10px 15px 10px 15px !important;
+    }
+    .visa_search_widget {
+        margin-bottom: 0px;
+    }
+}
+
+.honeymoon-search {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    padding-top: 5px;
+    padding-bottom: 10px
+}
+
+#others_select_option,
+.banner_home_gallery_honeymoon>img,
+.honeymoon_input,
+.video_png {
+    width: 100% !important
+}
+
+.honeymoon_input {
+    border: none;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.honeymoon_search_form .honeymoon_input:fist-child {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px
+}
+
+.honeymoon_search_form .honeymoon_input:lasst-child {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px
+}
+
+.common_btn_thomas {
+    background: #0095da;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 0 25px !important;
+    font-weight: 300;
+    color: #fff !important
+}
+
+.left_15px_home_btn {
+    margin-left: -15px;
+    margin-bottom: 15px
+}
+
+#others_select_option {
+    display: none;
+    position: absolute;
+    margin: 1px 0 0;
+    border: none;
+    border-right: 1px solid #ccc;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 30px;
+    padding: 4px 12px;
+    background-color: #fff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555
+}
+
+input[type=checkbox].css-checkbox:checked+label.lite-blue-check {
+    background: url(https://www.thomascook.in/csshttps://www.thomascook.in/images/common_sprite.png) -375px -136px no-repeat;
+    width: 18px;
+    height: 18px
+}
+
+.container_honeymoon_gallery {
+    position: relative;
+    max-height: 235px;
+    overflow: hidden;
+    margin-bottom: 15px
+}
+
+.image_honeymoon_gallery {
+    display: block;
+    width: 100%;
+    height: 235px;
+    object-fit: fill
+}
+
+.text_honeymoon_gallery {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    width: 100%;
+    text-align: left;
+    background: rgba(0, 0, 0, .5);
+    padding: 7px
+}
+
+.no-border-left {
+    border-left: 0
+}
+
+.submenu_header_thomas:hover .dropdown-menu {
+    display: block
+}
+
+.margin_right_15px {
+    margin-right: 15px
+}
+
+.margin_left_15px {
+    margin-left: 15px
+}
+
+.jcarousel_all_data_thomas:hover h2 {
+    color: #0195db
+}
+
+.destination-map p {
+    display: none
+}
+
+.view_honeymoon_home {
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px
+}
+
+.slider_area .PhotoGallery {
+    border-top: 0 solid #ddd
+}
+
+.map_slider_video .honeymoon_package_destination {
+    padding: 30px 0 0
+}
+
+.full_width_h2_link {
+    text-align: center;
+    font-size: 24px;
+    margin: 30px 0 20px;
+    padding: 30px 0 0
+}
+
+.continueBtn:hover {
+    background: #39b7f2
+}
+
+.banner_bottom {
+    bottom: 0;
+    height: 35px;
+    border-bottom: 0 solid #8b9bb3
+}
+
+[class*=" icon-"],
+[class*=" tc-"],
+[class^=icon-],
+[class^=tc-] {
+    speak: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.banner_bottom .col-lg-5 {
+    width: 41.66666667%
+}
+
+.banner_bottom .jcarousel-wrapper {
+    border: none !important;
+    box-shadow: none !important
+}
+
+.banner_bottom .jcarousel-control-next,
+.banner_bottom .jcarousel-control-prev {
+    background: 0 0;
+    box-shadow: none;
+    color: #130f10 !important;
+    margin-top: -20px;
+    font-size: 31px;
+    font-weight: 100;
+    line-height: 32px;
+    text-shadow: none
+}
+
+.banner_bottom .jcarousel-control-prev {
+    left: -30px
+}
+
+.banner_bottom .jcarousel-wrapper a:focus,
+.banner_bottom .jcarousel-wrapper a:hover {
+    color: #23527c;
+    text-decoration: none
+}
+
+.banner_bottom .jcarousel-control-next {
+    right: -30px
+}
+
+.modal-title span {
+    display: inline-block
+}
+
+.banner_bottom .jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999
+}
+
+.banner_bottom .jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+.banner_bottom .jcarousel li {
+    border: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 300;
+    width: auto !important;
+    text-align: center;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.banner_bottom .jcarousel li .INR {
+    font-weight: 600
+}
+
+.banner_bottom .INR {
+    color: #000;
+    font-weight: 600
+}
+
+[class*=" icon-"],
+[class^=icon-] {
+    font-family: forex !important;
+    font-weight: 400;
+    line-height: 1
+}
+
+[class*=" tc-"],
+[class^=tc-] {
+    font-family: ThomasCook !important;
+    font-weight: 400;
+    line-height: 1
+}
+
+.padding-remove {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.close {
+    color: #0095da;
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 100
+}
+
+.Alertpopup .modal-title {
+    font-size: 21px;
+    font-weight: 500
+}
+
+div#exclusuveDealsCarousel {
+    padding-top: 0px;
+}
+
+div#howToReachLocation {
+    padding-top: 0px;
+}
+
+.modal-title {
+    color: #0C4DA2
+}
+
+.modal-dialog.Alertpopup {
+    max-width: 600px
+}
+
+a:focus,
+a:hover {
+    color: #0054a6;
+    text-decoration: none;
+}
+
+.jcarousel-control-prev {
+    background-size: auto;
+    background-position: 508px 52px;
+    background-image: url(/images/footer-sprite.png)
+}
+
+.breadcrumb_links ul {
+    margin: 0;
+    overflow: hidden;
+    padding: 7px 0
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 740px;
+        margin: 30px auto
+    }
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+    .tourismSectionDynamicData.things-todo-section h2.pad-t-15 {
+        width: 100%;
+    }
+    #forgotPassword .modal-content {
+        padding: 0 0 0 15px
+    }
+    .PhotoGallery .jcarousel li {
+        min-width: 235px
+    }
+    ul.bulletlist li {
+        border-bottom: 1px solid #ccc;
+        width: 360px !important;
+    }
+    .faq-wrapper {
+        padding-right: 15px !important;
+    }
+    .things-todo-txt {
+        left: -15px !important;
+    }
+    .package-box {
+        width: 100px;
+        float: right;
+        border-radius: 5px;
+        background: #0097d6;
+    }
+    .package-box a {
+        color: #fff;
+    }
+    .gallery_blog h2 {
+        padding-left: 15px !important;
+        margin-bottom: 0px !important;
+        color: #0054a6;
+    }
+    .jcarousel-wrapper {
+        margin: 0px auto !important;
+    }
+    .how-to-reach {
+        padding-top: 20px !important;
+    }
+    .jcarousel {
+        position: relative;
+        overflow: hidden;
+        width: 85%;
+        margin: 0 auto
+    }
+    .PhotoGallery .jcarousel-control-prev {
+        background-position: 0 -60px
+    }
+    .PhotoGallery .jcarousel-control-next {
+        background-position: -38px -60px
+    }
+    .PhotoGallery .wid875 {
+        width: 95% !important
+    }
+    .full_width_h2_link {
+        padding: 10px
+    }
+    .title_details_video {
+        padding: 0 5px;
+        line-height: 18px;
+        font-size: 14px;
+        margin-bottom: 0
+    }
+    h2.video_honeymoon_titles {
+        font-size: 18px;
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    .banner_bottom {
+        background: #f2f2f2;
+        border-bottom: 0 solid #8b9bb3
+    }
+    #Map .holiday-search {
+        background-color: transparent
+    }
+    .banner_bottom .jcarousel-wrapper {
+        border: none;
+        box-shadow: none;
+        margin: 0
+    }
+    .honeymoon_input {
+        border-radius: 3px
+    }
+    .banner_bottom .jcarousel-control-prev {
+        left: -30px
+    }
+    .banner_bottom .jcarousel-control-next {
+        right: -30px
+    }
+    .honeymoon_india_packages .PhotoGallery,
+    .honeymoon_international_packages .PhotoGallery {
+        padding: 20px 0 0
+    }
+    .visa_search_widget {
+        min-height: 400px;
+        max-height: 400px
+    }
+    .video_png {
+        cursor: auto;
+        min-height: 110px
+    }
+    .honeymoon-search {
+        position: relative;
+        border-bottom: 1px solid #ddd;
+        padding-top: 0
+    }
+    .left_15px_home_btn {
+        margin-left: 0
+    }
+    .holiday-form-search {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .img-responsive-video {
+        max-height: 40px
+    }
+    .Honeymoon_travel {
+        padding: 20px 10px 10px !important
+    }
+    .visa_testimonials #visaTestimonials.carousel {
+        padding: 30px 10px
+    }
+    .Honeymoon_travel,
+    .PhotoGallery {
+        padding: 20px 10px 10px
+    }
+    .jcarousel-control-next,
+    .jcarousel-control-prev {
+        width: 35px;
+        height: 35px;
+        background-size: 350px
+    }
+    .honeymoon_input {
+        clear: both
+    }
+    .full_width_h2_link,
+    .gallery_blog h2,
+    .h2,
+    h2 {
+        font-size: 18px;
+        color: #0054a6;
+    }
+    .holiday-search {
+        position: absolute;
+        border-bottom: 1px solid #ddd;
+        padding-top: 0
+    }
+    .img_play_with_text_video {
+        margin-left: -166px;
+        margin-top: -50px
+    }
+    #Map .holiday-form-search .col-lg-5,
+    .Honeymoon_h2,
+    .list_blog ul.bulletlist {
+        margin-left: 0
+    }
+    .arrow_bg:first-of-type {
+        left: 15px
+    }
+    .arrow_bg {
+        top: 35%
+    }
+    .arrow_bg:last-of-type {
+        right: 15px
+    }
+    .footer_row_1 .container,
+    .footer_row_1 .main_menu_div {
+        padding-left: 0;
+        padding-right: 0
+    }
+    .footer_row_1 .contact_details_footer {
+        padding-left: 20px;
+        padding-right: 0;
+        padding-bottom: 10px
+    }
+    .footer_row_1 .main_menu_div {
+        border-top: 1px solid #999
+    }
+    footer .row>ul>li:last-child {
+        top: 0;
+        margin-top: -50px
+    }
+    .main_menu_div ul li {
+        display: block
+    }
+    .follow_us_li {
+        display: none
+    }
+    .bdr_left {
+        border-left: 0 dotted #ccc;
+        margin-top: 10px
+    }
+    .gallery_blog .read_more {
+        text-align: left
+    }
+    .Honeymoon_h2 {
+        padding-bottom: 0
+    }
+    #Map .holiday-map {
+        position: relative;
+        min-height: 180px;
+        margin-top: 0;
+        background-color: #333
+    }
+    .visa_testimonials {
+        margin-bottom: 20px
+    }
+    .holiday-special-offer-p {
+        padding: 0 0 10px;
+        margin-bottom: 0;
+        margin-top: 15px
+    }
+    .PhotoGallery .jcarousel-control-prev {
+        left: 34% !important;
+        top: 95%;
+    }
+    .PhotoGallery .jcarousel-control-next {
+        right: 44% !important;
+        top: 95%;
+    }
+    .table-responsive {
+        width: 100% !important
+    }
+}
+
+@media screen AND (min-width: 991px) {
+    .gallery_blog img {
+        width: 100%
+    }
+}
+
+@media screen AND (min-width: 768px) AND (max-width:1024px) {
+    .PhotoGallery .jcarousel-control-prev {
+        left: -15px !important
+    }
+    .PhotoGallery .jcarousel-control-next {
+        right: -15px !important
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width:768px) {
+    .package-box {
+        margin-top: 0
+    }
+    .holiday-search>.container {
+        width: 95%
+    }
+    .holiday-form-search .col-lg-5 {
+        width: 39%
+    }
+    .banner_bottom .jcarousel-control-next {
+        right: -30px
+    }
+    .jcarousel .font22 {
+        font-size: 14px
+    }
+    .jcarousel .price {
+        font-size: 10px;
+        line-height: 10px
+    }
+    .package-box {
+        padding: 0;
+        border: 0 solid #0097d6;
+        text-align: left
+    }
+    .package-box a {
+        padding: 0;
+        text-align: left;
+        font-size: 12px
+    }
+    .jcarousel-control-next {
+        right: -30px;
+        background-position: -45px 40px;
+        height: 34px;
+        width: 40px;
+        background-size: 400px
+    }
+    .jcarousel-control-prev {
+        left: -25px;
+        background-position: 400px 40px;
+        height: 34px;
+        width: 40px;
+        background-size: 400px
+    }
+}
+
+@media (min-width: 1024px) {
+    .full-border {
+        border: 1px solid #ddd;
+        border-right: 0
+    }
+    .full-border:last-child {
+        border-right: 1px solid #ddd
+    }
+    #langCur {
+        height: 250px
+    }
+}
+
+.how_to_reach_section_start h3 {
+    font-size: 18px !important;
+    color: #333 !important
+}
+
+img {
+    max-width: 100%
+}
+
+p.bdr-top {
+    text-align: left;
+}
+
+#recommendedHolidays h2,
+#recommendedHolidays h3 {
+    font-size: 14px !important;
+    color: #333 !important;
+    margin-bottom: 0px !important;
+    width: 338px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.body-outerwrapper .readmore_static_no_more p span {
+    font-size: 14px !important;
+    line-height: 24px !important;
+}
+
+.readmore_static_no_more ul li {
+    list-style-type: disc;
+}
+
+.how-to-reach-img {
+    display: inline-block;
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+}
+
+.paddbot15 {
+    padding-bottom: 15px;
+}
+
+.airplane {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 385px 150px;
+}
+
+.road {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 236px 288px;
+}
+
+.trains {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 395px 94px;
+}
+
+.cruise {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/tourism-mobile-icons.png) -172px -8px;
+    margin: 0 !important;
+}
+
+.toTop {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/tourism-mobile-icons.png) -115px 0px no-repeat;
+    z-index: 999;
+}
+
+.body-outerwrapper,
+.tc_visa_page {
+    line-height: 24px
+}
+
+.best {
+    margin-bottom: 14px;
+    overflow: auto
+}
+
+#langCur {
+    padding: 20px 9px
+}
+
+.season-main .seasons {
+    padding: 20px 0
+}
+
+.season-main {
+    padding: 0 !important
+}
+
+.marR10 {
+    margin-right: 0 !important
+}
+
+.readmore_static_no_more {
+    margin-bottom: 20px
+}
+
+#langCurWeather .seasons {
+    height: 172px
+}
+
+.HoneymoonDesti li {
+    list-style-type: disc;
+    margin-left: 15px
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 18px;
+    white-space: normal;
+    width: auto;
+}
+
+h4 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.tagging_srp_tc {
+    clear: both;
+    margin-bottom: 15px;
+    overflow: hidden
+}
+
+.srpcountrylinks_btn {
+    overflow: hidden
+}
+
+.css-label {
+    background: url(/images/common_sprite.png) -375px -116px no-repeat;
+    width: 18px;
+    height: 18px
+}
+
+input[type=checkbox].css-checkbox:checked+label.css-label {
+    margin-top: 7px
+}
+
+.srpcountry_tab.cntry-fltr-ul.greysrp_btn h3,
+.srpcountrylinks_btn h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.srp_footer_content_no_more p,
+.srp_footer_content_no_more ul li {
+    list-style-type: none;
+    font-size: 12px !important;
+    word-wrap: break-word;
+    padding-bottom: 5px;
+    position: relative;
+    padding-left: 10px
+}
+
+.srpcountry_tab.cntry-fltr-ul.greysrp_btn a,
+.srpcountrylinks_btn a {
+    color: #646464;
+    display: inline-block;
+    font-size: 13px;
+    width: auto;
+    margin-right: 15px;
+    padding: 5px 10px;
+    float: left
+}
+
+.srpcountrylinks_btn div,
+.srpcountrylinks_btn p {
+    float: left;
+    margin-bottom: 0
+}
+
+.srpcountrylinks_btn a {
+    font-weight: 400;
+    text-decoration: none !important;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-left: 7px solid #0054a6;
+    margin-bottom: 10px
+}
+
+.srpcountry_tab.cntry-fltr-ul.greysrp_btn {
+    border-top: 2px solid #0095da;
+    clear: both
+}
+
+.srpcountry_tab {
+    margin-top: 15px;
+    margin-bottom: 35px
+}
+
+.srpcountry_tab.cntry-fltr-ul.greysrp_btn a {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    border-left: 7px solid #0054a6;
+    margin-bottom: 10px;
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, .1) inset;
+    text-transform: capitalize;
+    -khtml-border-radius: 4px;
+    text-decoration: none
+}
+
+#outer-box #inner-box,
+.jcarousel-wrapper-no a.jcarousel-control-next,
+.jcarousel-wrapper-no a.jcarousel-control-prev,
+.jcarousel-wrapper-no p.bdr-top {
+    display: none
+}
+
+.srp_footer_content_no_more h2,
+.srp_footer_content_no_more h3,
+.srp_footer_content_no_more h4,
+.srp_footer_content_no_more h5 {
+    color: #0095da;
+    font-weight: 400;
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 5px
+}
+
+.srpcountry_tab.cntry-fltr-ul.greysrp_btn a:hover,
+.srpcountrylinks_btn a:hover {
+    border: 1px solid #0054a6;
+    border-left: 7px solid #0054a6;
+    background: #0054a6;
+    color: #fff
+}
+
+.HoneymoonDesti p,
+.HoneymoonDesti span {
+    color: #444;
+    font-size: 14px !important;
+}
+
+.HoneymoonDesti h1,
+.HoneymoonDesti h1 p,
+.HoneymoonDesti h1 span,
+.gallery_blog h1,
+.gallery_blog h1 p,
+.gallery_blog h1 span {
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    margin-top: 0;
+    color: #0054a6 !Important;
+}
+
+.HoneymoonDesti .readmore_static_no_more h2,
+.HoneymoonDesti .readmore_static_no_more h2 strong span {
+    font-size: 24px !important;
+    font-weight: 700 !important
+}
+
+.HoneymoonDesti .readmore_static_no_more h2 {
+    margin-top: 0;
+    color: #369;
+    margin-bottom: 15px
+}
+
+.sin_details p {
+    font-size: 14px !important;
+}
+
+div#bestTimeToVisitDest p {
+    font-size: 15px !important;
+}
+
+.read-more-text {
+    color: #0C4DA2;
+    padding-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.HoneymoonDesti h2,
+.HoneymoonDesti h2 p,
+.HoneymoonDesti h2 span {
+    font-weight: 700;
+    margin-top: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+
+.HoneymoonDesti h3,
+.HoneymoonDesti h3 p,
+.HoneymoonDesti h3 span {
+    font-weight: 400;
+    font-size: 16px !important;
+    margin-top: 20px;
+    color: #000 !important;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+
+.HoneymoonDesti h4,
+.HoneymoonDesti h4 p,
+.HoneymoonDesti h4 span {
+    font-weight: 400;
+    font-size: 14px !important;
+    margin-top: 20px;
+    color: #000 !important;
+    text-transform: capitalize;
+    margin-bottom: 10px
+}
+
+.jcarousel-wrapper-no {
+    margin: 20px auto;
+    position: relative
+}
+
+.jcarousel-wrapper-no .jcarousel-no {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-height: 640px
+}
+
+.jcarousel-wrapper-no ul#recommendedHolidays {
+    width: 1170px;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.jcarousel-no ul#recommendedHolidays li {
+    border: none;
+    min-width: 180px;
+    text-align: center;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 13px !important;
+    line-height: 17px;
+    width: 24%;
+    margin-top: 11px
+}
+
+.jcarousel-wrapper-no .tour_inclusive {
+    margin: 0;
+    border-bottom: none;
+    padding-bottom: 0
+}
+
+.tour_inclusive>ul li.bg-icon1,
+.tour_inclusive>ul li.bg-icon2,
+.tour_inclusive>ul li.bg-icon3,
+.tour_inclusive>ul li.bg-icon4,
+.tour_inclusive>ul li.bg-icon5,
+.tour_inclusive>ul li.bg-icon6 {
+    min-width: 50px !important;
+    width: 70px !important;
+    height: 50px !important;
+    position: relative;
+}
+
+@media (max-width: 767px) and (min-width:320px) {
+    h2 {
+        font-size: 18px;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+    h1 {
+        font-size: 22px;
+        white-space: normal;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+    .best {
+        border: 0 !important;
+        padding-top: 10px !important;
+    }
+    #langCurWeather .seasons:nth-child(1),
+    #langCurWeather .seasons:nth-child(3),
+    #langCurWeather .seasons:nth-child(5),
+    .lang_spok {
+        border-right: 1px solid #ddd
+    }
+    #langCurWeather .seasons:nth-child(3),
+    #langCurWeather .seasons:nth-child(4),
+    #langCurWeather .seasons:nth-child(5) {
+        border-top: 1px solid #ddd
+    }
+    .season-main {
+        padding: 0
+    }
+    #langCur {
+        padding: 0 9px;
+        margin-bottom: 0 !important
+    }
+    #langCurWeather .seasons {
+        height: auto;
+        padding: 20px 0
+    }
+    #langCurWeather {
+        border: 1px solid #ddd;
+        overflow: hidden;
+        margin-bottom: 30px;
+        padding: 0
+    }
+    .mob-LRpadding {
+        padding: 0 15px
+    }
+    #langCurWeather .season {
+        padding: 20px 0
+    }
+    .lang_spok {
+        height: 100%;
+        min-height: 84px !important;
+        padding: 10px 0 !important
+    }
+    .currency-used {
+        padding: 10px 15px !important
+    }
+    .visa_search_widget {
+        margin-bottom: 0
+    }
+    .jcarousel-no ul#recommendedHolidays li {
+        width: 100%;
+        display: inline-flex;
+        min-width: 280px
+    }
+    .jcarousel-wrapper-no ul#recommendedHolidays {
+        width: 100%;
+        max-width: 1600px;
+        display: flex;
+        white-space: nowrap;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        min-width: 320px
+    }
+    .jcarousel-wrapper-no .jcarousel-no {
+        max-height: 340px
+    }
+    .jcarousel-wrapper-no .tour_inclusive>ul li.bg-icon1,
+    .jcarousel-wrapper-no .tour_inclusive>ul li.bg-icon2,
+    .jcarousel-wrapper-no .tour_inclusive>ul li.bg-icon3,
+    .jcarousel-wrapper-no .tour_inclusive>ul li.bg-icon4,
+    .jcarousel-wrapper-no .tour_inclusive>ul li.bg-icon5,
+    .jcarousel-wrapper-no .tour_inclusive>ul li.bg-icon6 {
+        min-width: 38px !important;
+        width: 38px !important;
+        display: inline-block !important
+    }
+}
+
+.CAR {
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/icon_master_static.png) -114px -5px no-repeat
+}
+
+.VISA {
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/icon_master_static.png) -78px -112px no-repeat
+}
+
+.icon-master {
+    width: 37px;
+    height: 37px;
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    margin: 27px 4px 0;
+    padding-left: 3px
+}
+
+.banner_bottom .container {
+    clear: both
+}
+
+div#testDisplay h3 {
+    font-weight: 300;
+    text-align: center;
+    margin: 28px auto 0 !important;
+    font-size: 24px
+}
+
+.banner_bottom .breadcrumb_links {
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px
+}
+
+body {
+    font-size: 13px
+}
+
+.body-outerwrapper ol li,
+.body-outerwrapper ul li,
+.readmore_static p,
+.readmore_static span,
+.tc_visa_page ol li,
+.tc_visa_page ul li {
+    font-size: 14px;
+    line-height: 28px !important;
+}
+
+.faq-new button,
+.faq-new p {
+    margin-left: 20px !important
+}
+
+footer span {
+    font-size: 20px;
+    line-height: 37px
+}
+
+#outer-box {
+    /* display: block; */
+    position: relative;
+    padding-top: 10px;
+    margin-left: 0 !important;
+}
+
+.pm0 {
+    padding: 0;
+    margin: 0
+}
+
+button#traveller-continueBtn {
+    margin-top: 15px
+}
+
+.main-border-box {
+    max-height: 410px !important;
+    min-height: 410px !important
+}
+
+#outer-box #inner-box {
+    background: #fff;
+    height: 150px;
+    width: 100%;
+    top: -84px;
+    left: 0;
+    position: absolute;
+    transition: opacity .5s;
+    opacity: .8;
+    padding: 30px
+}
+
+#outer-box #inner-box p {
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    margin: 0
+}
+
+#inner-box .close-query {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#outer-box #inner-box h4 {
+    color: #e3ab0e;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 18px
+}
+
+#outer-box:hover #inner-box {
+    opacity: .8;
+    transition: opacity .5s
+}
+
+#photos img,
+.youtube iframe {
+    width: 100%;
+    margin-bottom: 25px;
+    height: auto;
+    min-height: 215px;
+    max-height: 215px;
+    overflow: hidden
+}
+
+.body-outerwrapper ol li,
+.body-outerwrapper ul li,
+.more_all_big_static p,
+.more_all_big_static span,
+.tc_visa_page ol li {
+    font-size: 14px !important;
+}
+
+.main_menu_div .nav>li {
+    display: table-cell;
+    width: 1%;
+}
+
+.more_all_big_static {
+    height: 100%;
+    max-height: 54px;
+    overflow: hidden;
+    -webkit-transition: max-height .75s;
+    transition: max-height .75s;
+}
+
+.more_all_big_static p {
+    margin: 0
+}
+
+.read_more_static {
+    display: block
+}
+
+ol li {
+    font-size: 14px;
+    line-height: 18px
+}
+
+.INR {
+    color: #0095da !important
+}
+
+.img-thing {
+    height: 120px
+}
+
+.counter_data_thing_to_do {
+    padding: 0 10px;
+    max-height: 106px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    word-wrap: break-word
+}
+
+.HoneymoonDesti .tab-content {
+    visibility: inherit;
+    height: auto
+}
+
+.HoneymoonDesti .nav-tabs>li>a,
+.HoneymoonDesti .nav-tabs>li>a:active,
+.HoneymoonDesti .nav-tabs>li>a:focus,
+.HoneymoonDesti .nav-tabs>li>a:hover {
+    border: 0;
+    padding: 0
+}
+
+.counter_data_thing_to_do p {
+    margin-left: 0 !important
+}
+
+.reach-margin {
+    margin-left: 20px
+}
+
+.jcarousel-wrapper {
+    margin: 0px auto;
+    position: relative;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 2px #999;
+    -moz-box-shadow: 0 0 2px #999;
+    box-shadow: 0 0 2px #999
+}
+
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%
+}
+
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.jcarousel li {
+    width: 200px;
+    min-width: 180px;
+    text-align: center;
+    float: left;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.jcarousel img {
+    display: block;
+    max-width: 390px;
+    height: auto;
+    width: 100%;
+    max-height: 250px;
+}
+
+.jcarousel-wrapper img.img-responsive {
+    height: auto !important
+}
+
+#recommendedHolidays .jcarousel img {
+    display: block;
+    height: auto;
+    width: 100%;
+    max-height: 185px;
+    min-height: 185px
+}
+
+.jcarousel-control-next,
+.jcarousel-control-prev {
+    position: absolute;
+    top: 0px;
+    margin-top: -35px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    background: #4e443c;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000;
+    font: 24px/27px Arial, sans-serif;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.jcarousel-control-prev {
+    left: 15px
+}
+
+.jcarousel-control-next {
+    right: 15px
+}
+
+#map {
+    height: 200px;
+    cursor: pointer;
+    display: none;
+}
+
+.readmore_static p {
+    font-size: 15px !important;
+}
+
+.HoneymoonDesti table {
+    background-color: transparent;
+    border: 0 solid #eee;
+    box-shadow: 0 0 0 rgba(160, 160, 160, .45);
+    box-sizing: border-box;
+    padding: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100% !important;
+    max-width: 100%;
+    color: #333;
+    font-size: 14px;
+    clear: both;
+    margin: 15px 0 !important
+}
+
+.active-things,
+.india_packages {
+    background: #fff !important
+}
+
+.HoneymoonDesti table td,
+.HoneymoonDesti table th {
+    padding: 8px;
+    font-size: 16px !important
+}
+
+.also_see .more-links {
+    text-decoration: underline;
+    margin: 10px;
+    color: #0095da;
+    font-size: 12px
+}
+
+.read_more a {
+    color: #ffa944;
+    text-decoration: underline;
+    padding-left: 10px
+}
+
+.navbar {
+    border-bottom: 2px solid #0095da;
+    border-top: 2px solid #0095da
+}
+
+.paddtop30 {
+    clear: both
+}
+
+.paddtop20 {
+    padding-top: 20px !important
+}
+
+.padd10 {
+    padding: 0 16px;
+}
+
+.HoneymoonDesti p {
+    margin: 0 0 5px;
+    word-break: break-word
+}
+
+.bdr-right {
+    border-right: 1px solid #ddd
+}
+
+.seasons span {
+    display: block;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.seasons span.font13 {
+    font-size: 13px !important
+}
+
+.small {
+    font-size: 10px;
+    display: inline !important;
+    vertical-align: super
+}
+
+.font16 {
+    font-size: 16px !important
+}
+
+.font14 {
+    font-size: 14px !important
+}
+
+.also_see ul li,
+.font13 {
+    font-size: 13px !important
+}
+
+.marR15 {
+    margin-right: 15px !important
+}
+
+.marbot10 {
+    margin-bottom: 10px !important
+}
+
+.reach-arrow:before {
+    border-left: 0 solid #ddd;
+    content: "";
+    height: 100%;
+    position: absolute
+}
+
+.arrow_box:after,
+.arrow_box:before,
+.bulletlist li:before,
+.reach-arrow:after {
+    content: " "
+}
+
+.reach-arrow:after {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 12px solid #ddd;
+    position: absolute;
+    top: 37px;
+    left: 16px;
+    right: auto;
+    display: none
+}
+
+.travel-arrow:before {
+    padding: 330px 0 0 !important
+}
+
+.travel-arrow:after {
+    top: 35px !important
+}
+
+.air-travel,
+.rail-travel,
+.road-travel {
+    display: inline-block;
+    width: 52px;
+    height: 50px;
+    float: left;
+}
+
+#bestTimeToVisitDest {
+    padding-top: 0px;
+    max-height: auto;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+}
+
+.card .card-img-top {
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 20px 20px 0 0;
+}
+
+.how-reach {
+    max-height: 151px;
+    overflow: hidden;
+}
+
+.faq-header-txt {
+    font-size: 18px !important;
+    padding-bottom: 10px;
+}
+
+.faq-new button,
+.faq-new p {
+    padding-left: 10px;
+    font-size: 16px !important;
+    margin-left: 0 !important;
+}
+
+.card-header:first-child {
+    border-radius: 10px !important;
+}
+
+.faq-new .card-header p:first-child:after {
+    content: "Q";
+    float: left;
+    font-size: 22px;
+    color: #9acbff;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+.faq-new .card-header p:first-child {
+    padding-top: 10px;
+}
+
+.faq-new .card-header p:last-child {
+    padding-left: 33px;
+    margin-left: 10px !important;
+}
+
+.faq-new .card-header p:last-child:after {
+    content: "A";
+    float: left;
+    font-size: 22px;
+    color: #9acbff;
+    font-weight: bold;
+    margin-right: 15px;
+    position: absolute;
+    left: 22px;
+    top: 55px;
+}
+
+.more-text {
+    padding: 0;
+}
+
+.how_to_reach_section_start .reach-txt {
+    margin-top: 10px;
+    font-size: 18px !important;
+    color: #333 !important;
+    margin-bottom: 10px !important;
+}
+
+#hmap {
+    height: auto !important;
+}
+
+.planes {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 394px 148px;
+    width: 60px;
+}
+
+.train {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 395px 95px;
+}
+
+.car {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 240px 292px;
+}
+
+.cruise,
+.plane {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 5px 4px 0;
+    padding-left: 3px;
+    line-height: 41px !important;
+    font-size: 22px !important;
+    color: #0196da;
+    float: left;
+    margin-right: 15px;
+}
+
+.view_btn {
+    background: #fff;
+    color: #0095da;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid #0095da
+}
+
+.jcarousel li,
+.jcarousel-wrapper {
+    border: none
+}
+
+.PhotoGallery .jcarousel-control-prev {
+    left: 93%;
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 696px 145px;
+    font-size: 0;
+    background-size: 405px
+}
+
+.PhotoGallery .jcarousel-control-next {
+    right: 0px;
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) 590px 145px;
+    font-size: 0;
+    background-size: 405px
+}
+
+.PhotoGallery .jcarousel-control-next:hover,
+.PhotoGallery .jcarousel-control-prev:hover {
+    color: #fff !important
+}
+
+.wid875 {
+    width: 875px !important;
+    margin: 0 auto !important
+}
+
+h2.package {
+    color: #6d84ae;
+    font-size: 20px;
+    margin: 20px 0 0 15px
+}
+
+h2.blog {
+    color: #6d84ae !important;
+    font-size: 20px !important;
+    margin: 20px 0 !important
+}
+
+.bg-h1,
+.bg-h2,
+.bg-h3,
+.bg-h4,
+.bg-h5 {
+    height: 37px;
+    margin: 0 auto;
+}
+
+.price {
+    font-size: 12px;
+    color: #929292;
+    display: block;
+    white-space: nowrap;
+}
+
+.bg-h1 {
+    width: 46px !important;
+    height: 50px !important;
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) -289px -136px no-repeat !important;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.bg-h2 {
+    width: 46px !important;
+    height: 50px !important;
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) -289px -136px no-repeat !important;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.bg-h3 {
+    width: 50px !important;
+    height: 50px !important;
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) -216px -155px no-repeat !important;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.bg-h4 {
+    width: 46px !important;
+    height: 50px !important;
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) -289px -76px no-repeat !important;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.bg-h6 {
+    width: 50px !important;
+    height: 50px !important;
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/static-holiday-sprites-images.png) -285px -76px no-repeat !important;
+    margin-top: 15px !important;
+    margin: 0 auto;
+}
+
+.bg-icon1,
+.bg-icon2,
+.bg-icon3,
+.bg-icon4,
+.bg-icon5,
+.bg-icon6 {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.bg-icon1 {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/recommended-holiday-icon.png) -180px 8px no-repeat !important;
+    max-width: 30px !important;
+}
+
+.bg-icon2 {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/recommended-holiday-icon.png) 3px 10px no-repeat !important
+}
+
+.bg-icon3 {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/recommended-holiday-icon.png) -220px 10px no-repeat !important
+}
+
+.bg-icon4 {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/recommended-holiday-icon.png) -95px 10px no-repeat !important
+}
+
+.bg-icon5 {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/recommended-holiday-icon.png) -278px 10px no-repeat !important
+}
+
+.bg-icon6 {
+    background: url(https://uatastra.thomascook.in/images/holiday/sotc-static/recommended-holiday-icon.png) -35px 10px no-repeat !important
+}
+
+.others-packages .best-domestic-view-more {
+    position: absolute;
+    right: 8.5%;
+    top: -3px !important;
+}
+
+.card-body .card-titlet {
+    font-size: 16px !important;
+    max-height: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.flight-txt {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    font-size: 11px;
+    color: #444;
+}
+
+.best {
+    padding-top: 60px;
+}
+
+#descBestTimeToVisit p,
+#descBestTimeToVisit span,
+.sin_details p,
+h3.placetxt {
+    font-size: 14px !important;
+    float: left;
+}
+
+.hotel-txt {
+    position: absolute;
+    top: 31px;
+    left: 0px;
+    font-size: 11px;
+    color: #444;
+}
+
+.sightseeing-txt {
+    position: absolute;
+    left: 1px;
+    top: 31px;
+    font-size: 11px;
+    color: #444;
+}
+
+.currency-txt {
+    font-size: 15px;
+}
+
+.readmore_static_no_more,
+.readmore_static_no_more p {
+    font-size: 14px !important;
+}
+
+.transfer-txt {
+    position: absolute;
+    top: 31px;
+    left: 12px;
+    font-size: 11px;
+    color: #444;
+}
+
+.visa-txt {
+    position: absolute;
+    top: 31px;
+    left: 15px;
+    font-size: 11px;
+    color: #444;
+}
+
+.meals-txt {
+    position: absolute;
+    top: 31px;
+    left: 22px;
+    font-size: 11px;
+    color: #444;
+}
+
+.optional {
+    padding: 0 3px;
+    border-radius: 10px !important;
+    font-size: 10px !important;
+    min-width: 40px;
+    position: absolute;
+    background-color: #FDEADB;
+    border: 1px solid #f90 !important;
+    top: 0px;
+    max-width: 70px;
+    height: 17px !important;
+    line-height: 13px;
+    z-index: 999999999;
+    left: 0;
+}
+
+.tour_inclusive>ul li {
+    float: left;
+    padding: 10px 5px;
+    min-width: 38px;
+    text-align: center;
+    position: relative
+}
+
+.jcarousel-no ul#recommendedHolidays li .tour_inclusive>ul li.bg-icon1,
+.jcarousel-no ul#recommendedHolidays li .tour_inclusive>ul li.bg-icon2,
+.jcarousel-no ul#recommendedHolidays li .tour_inclusive>ul li.bg-icon3,
+.jcarousel-no ul#recommendedHolidays li .tour_inclusive>ul li.bg-icon4,
+.jcarousel-no ul#recommendedHolidays li .tour_inclusive>ul li.bg-icon5,
+.jcarousel-no ul#recommendedHolidays li .tour_inclusive>ul li.bg-icon6 {
+    min-width: 38px;
+    width: 42px;
+    margin-right: 5px
+}
+
+.padding-remove {
+    padding: 0
+}
+
+.tour_inclusive {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.arrow_box {
+    position: absolute;
+    background: #f5f5f5;
+    border: 1px solid #d1d1d1;
+    top: 35px;
+    left: 30px
+}
+
+.arrow_box:before {
+    margin-top: -7px
+}
+
+.arrow_box:after {
+    margin-top: -6px
+}
+
+.arrow_box:after,
+.arrow_box:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.also_see ul li,
+.bdr-bottom,
+.tour_inclusive {
+    border-bottom: none !important;
+}
+
+p.bdr-top {
+    border-top: none !important;
+    display: none;
+}
+
+.also_see {
+    padding: 0 30px;
+    margin-bottom: 40px;
+    margin-top: 40px
+}
+
+.also_see ul li {
+    padding: 10px 0 10px 10px;
+    color: #0094da
+}
+
+.also_see li:after {
+    width: 0;
+    height: 0;
+    font-family: ThomasCook !important;
+    content: "\e930";
+    top: 6px;
+    left: 1px;
+    right: auto;
+    float: right;
+    margin-right: 20px;
+    color: #0094da;
+    font-size: 10px
+}
+
+.also_see li:first-child {
+    color: #000;
+    font-weight: 700
+}
+
+.con_btn,
+.error {
+    font-weight: 500
+}
+
+.also_see li:first-child:after {
+    content: ''
+}
+
+.more {
+    display: block;
+}
+
+.sin_details h2 {
+    text-align: left;
+    margin-top: 0
+}
+
+.tour_inclusive {
+    overflow: hidden;
+}
+
+.col-lg-12.padd10.margin10 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#recommendedHolidays .border_gray img.img-responsive {
+    min-height: 226px !important;
+    max-height: 226px !important;
+}
+
+.border_gray img {
+    padding: 0 !important;
+}
+
+.recommended-holiday-all-btn {
+    position: absolute;
+    right: 95px;
+    top: 24px;
+}
+
+.reg_form_holder {
+    display: none;
+}
+
+.social_login_holder {
+    display: none;
+}
+
+.package-duration-txt {
+    position: absolute;
+    top: -160px;
+    left: 19vw;
+    right: 0;
+    width: 76px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 2px 10px;
+    color: #fff;
+    background: #444;
+    font-size: 13px;
+    text-align: center;
+    display: none;
+}
+
+.con_btn {
+    background: #0054a6;
+    border: 1px solid #0054a6;
+    padding: 4px 34px;
+    color: #fff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.border-top-bottom {
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2
+}
+
+.font22 {
+    margin-top: 2px
+}
+
+.package-box {
+    padding: 4px;
+    margin-top: 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #0c4da2;
+    text-align: center;
+    font-size: 13px;
+    background: #0c4da2;
+    float: right;
+    width: 100px;
+}
+
+.photo-video-view-more {
+    position: absolute;
+    right: 8.5%;
+    top: 43px;
+}
+
+.package-box a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.no-padding {
+    padding: 0
+}
+
+.margin10 {
+    margin-top: 10px
+}
+
+ul li {
+    list-style-type: none
+}
+
+.PhotoGallery .jcarousel-wrapper {
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none
+}
+
+.PhotoGallery .jcarousel li {
+    border: none
+}
+
+.things {
+    padding: 20px 45px !important;
+    float: left;
+    cursor: pointer
+}
+
+.things-white-bg {
+    background: #fff
+}
+
+.things span {
+    display: block;
+    text-align: center;
+    margin: 0 auto
+}
+
+.bg-attractions {
+    width: 32px;
+    height: 51px;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -5px 0
+}
+
+.active-things .bg-attractions {
+    width: 32px;
+    height: 51px;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -5px 59px
+}
+
+.bg-night_life {
+    width: 45px;
+    height: 51px;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -167px -1px
+}
+
+.active-things .bg-night_life {
+    width: 45px;
+    height: 51px;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -167px 57px
+}
+
+.bg-activities {
+    width: 36px;
+    height: 51px;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -59px 0
+}
+
+.active-things .bg-activities {
+    width: 36px;
+    height: 51px;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -59px 59px
+}
+
+.bg-food {
+    width: 50px;
+    height: 51px;
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -224px 0
+}
+
+.active-things .bg-food {
+    background: url(https://www.thomascook.in/images/holiday/sotc-static/things_to_do_sprites.png) -224px 59px
+}
+
+.navbar {
+    margin-bottom: 0
+}
+
+.error {
+    color: red;
+    font-size: 11px;
+    display: none
+}
+
+.visa_tabs_content {
+    background: rgba(0, 0, 0, .6);
+    padding: 15px 10px
+}
+
+.search_box h1 {
+    margin: 0 0 11px 16px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    clear: both
+}
+
+.arrow_bg_new {
+    background-color: #383328;
+    width: 25px;
+    height: 30px;
+    z-index: 99999;
+    position: absolute
+}
+
+.left .arrow_bg_new {
+    left: -8px
+}
+
+#searchWidgetCarousel .carousel-control {
+    width: 0;
+    height: 0;
+    position: absolute
+}
+
+#searchWidgetCarousel .carousel-control.right {
+    right: 10px;
+    opacity: 1;
+    margin: 10px 8px 0 0
+}
+
+#searchWidgetCarousel .carousel-control.left {
+    opacity: 1;
+    margin: 10px 0 0 8px;
+    left: 10px;
+}
+
+.arrow_bg {
+    background-color: transparent;
+    opacity: .7;
+    position: absolute;
+    top: 50%
+}
+
+.arrow_bg:first-of-type {
+    left: 40px
+}
+
+.arrow_bg:last-of-type {
+    right: 40px
+}
+
+.visa_testimonials {
+    color: #fff;
+    min-height: 205px;
+    background: url(https://www.thomascook.in/images/visa/testi-back-texture.png) center center no-repeat #28374a;
+    display: none
+}
+
+.round_slide {
+    float: left;
+    width: 82px;
+    display: inline-block
+}
+
+#visaTestimonials .round_slide img {
+    width: 80px;
+    height: 80px
+}
+
+#visaTestimonials blockquote:before,
+blockquote:after {
+    position: absolute;
+    font-size: 80px;
+    line-height: 1
+}
+
+#visaTestimonials blockquote:before {
+    top: 0;
+    left: 0;
+    content: "\201C";
+    font-family: Bookman Old Style Regular
+}
+
+#visaTestimonials blockquote {
+    position: relative;
+    marign: 0;
+    padding: 20px 0 0 37px;
+    text-align: left;
+    font-size: 13px;
+    border-left: 0 !important
+}
+
+.imgshadow {
+    display: block;
+    line-height: 1px;
+    box-shadow: 22px 18px 7px 7px rgba(0, 0, 0, .6);
+    width: 67px;
+    padding: 1px;
+    margin-left: 0
+}
+
+.imgshadow,
+.round_slide img {
+    border-radius: 50%
+}
+
+.visa_testimonials h2 {
+    font-weight: 300;
+    text-align: center;
+    margin: 28px auto 0 !important;
+    font-size: 24px
+}
+
+#searchWidgetCarousel .carousel-inner .item img {
+    width: 100%;
+    display: block;
+    height: 400px
+}
+
+.holiday-form-search .form-control {
+    color: #333;
+    width: 100%;
+    border-radius: 3px 0 0 3px;
+    padding: 6px 12px;
+    border: 0;
+    border-right: 1px solid #999;
+    box-shadow: none !important
+}
+
+.holiday-form-search .col-lg-5 {
+    width: 47.99%;
+    padding-right: 0
+}
+
+.holiday-form-search .col-lg-3 {
+    width: 20%;
+    padding: 0
+}
+
+.holiday-search-form button {
+    font-size: 17px;
+    padding: 0 25px !important;
+    line-height: 6px;
+    font-weight: 300;
+    color: #fff !important
+}
+
+#visaTestimonials .item>img {
+    float: left;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    -webkit-box-shadow: inset 0 0 0 5px rgba(0, 0, 0, .38);
+    -moz-box-shadow: inset 0 0 0 5px rgba(0, 0, 0, .38);
+    box-shadow: inset 0 0 0 5px rgba(0, 0, 0, .38);
+    height: 100px;
+    width: 100px
+}
+
+.visa_testimonials .container {
+    max-width: 880px;
+    width: 950px;
+    padding: 30px 0
+}
+
+.testimonial_text p {
+    font-size: 13px;
+    font-weight: 300;
+    float: left;
+    word-break: break-word
+}
+
+.testimonial_text {
+    padding: 0 0 0 30px
+}
+
+.testimonial_text span {
+    font-weight: 500;
+    float: left;
+    font-size: 13px;
+    margin: 0 5px 0 0
+}
+
+#visaTestimonials .carousel-indicators li {
+    background: #0095da;
+    border: 0;
+    margin: 1px 10px
+}
+
+#visaTestimonials .carousel-indicators {
+    bottom: -20px
+}
+
+#visaTestimonials .carousel-indicators li.active {
+    width: 5px;
+    height: 5px;
+    margin: 0 10px 3px;
+    box-shadow: 0 0 0 3px #fff
+}
+
+#visaTestimonials.carousel {
+    padding: 30px 0
+}
+
+.visa_search_widget .carousel,
+.visa_search_widget .carousel-inner {
+    position: initial;
+    z-index: -99
+}
+
+.visa_search_widget .carousel .item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+
+.breadcrumb_links {
+    position: absolute;
+    top: -55px;
+    font-size: 12px;
+}
+
+.breadcrumb_links ul li {
+    font-size: 13px !important;
+}
+
+.breadcrumb_links ul li:first-child {
+    color: #0054a6;
+}
+
+.breadcrumb_links ul li:nth-child(2) {
+    color: #0054a6;
+}
+
+.tourismSectionDynamicData.visa_search_widget {
+    min-height: 390px !important;
+    max-height: 390px !important;
+    margin-top: 50px !important;
+    padding-top: 0px;
+}
+
+.search_box_wrap {
+    width: 950px
+}
+
+.visa_tabs_content .tab-pane {
+    float: left;
+    width: 100%
+}
+
+.Honeymoon_travel .gallery_blog h2,
+.gallery_blog h2 {
+    text-align: left
+}
+
+.bulletlist li {
+    position: relative;
+    padding: 8px 12px 10px;
+    float: left;
+    font-weight: bold;
+}
+
+.bulletlist {
+    padding-top: 10px;
+}
+
+.search_box {
+    position: absolute;
+    width: 950px;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.search_box .continueBtn {
+    padding: 3px 10px !important
+}
+
+.banner_bottom {
+    background: #f7f7f7;
+    position: static
+}
+
+.banner_bottom ul li {
+    float: left;
+    padding: 5px 5px 5px 0;
+    color: #ccc
+}
+
+.banner_bottom li:last-child {
+    color: #333
+}
+
+.banner_bottom li:last-child:after {
+    content: ''
+}
+
+.HoneymoonDesti h2,
+.gallery_blog h2 {
+    color: #0054a6 !important;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    text-transform: capitalize;
+}
+
+.HoneymoonDesti p {
+    color: #444;
+}
+
+.gallery_blog {
+    width: 100%
+}
+
+.PhotoGallery {
+    overflow: hidden;
+    padding: 10px 0;
+    margin-top: 25px
+}
+
+.gallery_blog img {
+    margin-bottom: 30px;
+    width: 100%
+}
+
+.tourismSectionDynamicData.twelToursimSection.container.PhotoGallery {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+    padding-bottom: 0px !important;
+}
+
+.tourismSectionDynamicData.twelToursimSection.container.PhotoGallery h2 {
+    padding-left: 15px;
+}
+
+.slider_product .jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    margin-right: 12px;
+    border: 0 solid #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 #999;
+    -moz-box-shadow: 0 0 0 #999;
+    box-shadow: 0 0 0 #999
+}
+
+.slider_product .jcarousel-wrapper {
+    margin: 20px auto;
+    position: relative;
+    border: 0 solid #fff;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: 0 0 0 #999;
+    -moz-box-shadow: 0 0 0 #999;
+    box-shadow: 0 0 0 #999
+}
+
+.list_blog {
+    margin-bottom: 25px
+}
+
+.QueriesForm {
+    border: 1px solid #0094da;
+    box-shadow: 0 0 7px rgba(0, 148, 218, .45);
+    padding: 14px 20px;
+    box-sizing: border-box;
+    margin-top: -91px;
+    z-index: 10000;
+    background: #fff
+}
+
+.QueriesForm h2 {
+    color: #184c97;
+    font-size: 20px;
+    margin: 5px 0
+}
+
+.QueriesForm h6 {
+    color: #184c97;
+    font-size: 16px;
+    margin: 5px 0 10px
+}
+
+.marginTB {
+    margin: 50px auto !important
+}
+
+.Honeymoon_travel {
+    background: #fff;
+    overflow: hidden;
+    margin: 20px 0
+}
+
+.bdr_left {
+    border-left: 1px dotted #ccc;
+    margin-top: 40px
+}
+
+.bdr_right {
+    border-right: 1px dotted #ccc;
+    margin-top: 40px
+}
+
+.Honeymoon_h2 {
+    margin-top: 15px;
+    padding-bottom: 10px
+}
+
+.honeymoonHead {
+    font-weight: 400
+}
+
+#currency,
+#language {
+    font-weight: 700
+}
+
+@media screen AND (min-width: 320px) AND (max-width:767px) {
+    .HoneymoonDesti #outer-box,
+    .Honeymoon_h2,
+    ul.bulletlist {
+        margin-left: 0;
+        padding-top: 0 !important;
+    }
+    .body-outerwrapper h2,
+    h2 span {
+        font-size: 18px !important;
+        /* padding-bottom: 0px !important; */
+        margin-bottom: 0 !important;
+    }
+    .card-body .card-title {
+        font-size: 15px !important;
+        padding-bottom: 5px !important;
+    }
+    .photo-videos-btn-section {
+        padding-bottom: 10px !important;
+    }
+    .HoneymoonDesti h1,
+    .HoneymoonDesti h1 p,
+    .gallery_blog h1,
+    .gallery_blog h1 span {
+        margin-top: 20px
+    }
+    /* #banner .carousel-item .bannerbgImages{
+        min-height: 114px !important;
+    } */
+    #banner .owl-nav button.owl-next {
+        background: none;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        left: -20px !important;
+    }
+    .faq-new {
+        padding: 0 !important;
+    }
+    .faq-new .card-header p:first-child {
+        padding-left: 35px;
+    }
+    .faq-new .card-header p:first-child:after {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .faq-new .card-header p:last-child {
+        padding-left: 27px;
+    }
+    .faq-new .card-header p:last-child:after {
+        position: absolute;
+        left: 22px;
+        top: 78px;
+    }
+    .tourism-txt {
+        margin-bottom: 10px !important;
+    }
+    button.owl-prev span,
+    button.owl-next span {
+        font-size: 30px;
+    }
+    div#faqhead1 .btn.btn-header-link.collapsed p:first-child {
+        padding-left: 20px !important;
+    }
+    div#faqhead1 .btn.btn-header-link.collapsed p:first-child:after {
+        position: absolute;
+        left: 15px !important;
+        top: 15px !important;
+    }
+    div#faqhead1 .btn.btn-header-link.collapsed p:last-child {
+        padding-left: 22px !important;
+    }
+    div#faqhead1 .btn.btn-header-link.collapsed p:last-child:after {
+        left: 15px !important;
+        top: 68px !important;
+    }
+    .sin_details {
+        padding-left: 15px !important;
+    }
+    /* button.owl-next span{
+        color: #fff;
+    } */
+    .visa_search_widget {
+        margin-bottom: 15px;
+        clear: both;
+        min-height: 290px !important;
+        max-height: 290px !important;
+        margin-top: 0 !important;
+    }
+    #banner {
+        min-height: 290px !important;
+    }
+    .HoneymoonDesti .con_btn {
+        padding: 8px 15px;
+        width: 100%
+    }
+    .things:last-child {
+        padding-right: 0;
+        border-right: 0 solid #0094da
+    }
+    .things {
+        float: left;
+        cursor: pointer;
+        border-right: 1px solid #0094da
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 18px !important;
+        margin-bottom: -5px !important;
+        padding-bottom: 12px
+    }
+    .best-time-visit .reach-arrow {
+        width: 100% !important;
+        margin-bottom: 20px
+    }
+    .best-time-visit .reach-arrow:before {
+        border-top: 1px solid #ddd;
+        content: "";
+        padding: 38px 0;
+        position: absolute;
+        width: 95%;
+        border-left: 0
+    }
+    .best-time-visit .reach-arrow:after {
+        width: 0;
+        height: 0;
+        border-bottom: 0 solid transparent;
+        display: block;
+        position: absolute;
+        content: " ";
+        left: 50%;
+        right: auto;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #ddd;
+        top: 0
+    }
+    .search_box,
+    .wid100,
+    .wid875 {
+        width: 100% !important
+    }
+    .HoneymoonDesti .reach-arrow:before {
+        border-left: 0 solid #ddd;
+        content: "";
+        height: 100%;
+        position: absolute
+    }
+    .bdr-right,
+    .bdr_left {
+        border: none
+    }
+    .HoneymoonDesti .container .col-sm-12.col-xs-12:nth-child(1) {
+        padding: 0
+    }
+    .mob-text-center {
+        text-align: center !important
+    }
+    .also_see ul li {
+        padding: 10px 0 10px 10px
+    }
+    .also_see li:after {
+        margin-right: 30px
+    }
+    .QueriesForm {
+        margin: 0
+    }
+    .marR10 {
+        margin-right: 0
+    }
+    .mob-no-padd {
+        padding: 0 !important
+    }
+    .mob-no-padd-top {
+        padding-top: 0 !important
+    }
+    .also_see,
+    .container.wid875.sin_details {
+        padding: 0
+    }
+    .language_bdr {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 10px
+    }
+    .container.wid875.marginTB {
+        margin: 25px auto !important;
+        padding-left: 0;
+        padding-right: 0
+    }
+    .container.wid875.sin_details #map {
+        width: 100%;
+        height: 200px;
+        cursor: pointer
+    }
+    .bdr-top #travel .col-xs-2.col-sm-2.col-md-1,
+    div.col-sm-8.col-xs-12.pm0#sightseeing .col-sm-12.col-xs-12 {
+        padding: 0
+    }
+    .PhotoGallery .con_btn {
+        width: 95%
+    }
+    div.col-sm-12.col-xs-12#international-tour-packages {
+        padding: 0
+    }
+    div.col-sm-8.col-xs-12.pm0#bestTimeToVisit,
+    div.col-sm-8.col-xs-12.pm0#sightseeing {
+        margin-left: -15px;
+        width: 110%;
+        margin-bottom: 20px
+    }
+    #bestTimeToVisit .paddtop30.best {
+        padding: 0
+    }
+    #bestTimeToVisit .reach-arrow:before {
+        border-left: 0 solid #ddd
+    }
+    #photos img,
+    .youtube iframe {
+        width: 100%;
+        margin-bottom: 15px
+    }
+    .visa_testimonials {
+        min-height: 175px
+    }
+    .visa_testimonials .container {
+        max-width: 767px;
+        width: 100%;
+        padding: 5px 0
+    }
+    .PhotoGallery .jcarousel li {
+        min-width: auto;
+        width: 38px
+    }
+    .con_btn {
+        padding: 10px 15px
+    }
+    .visa_testimonials #visaTestimonials.carousel {
+        padding: 5px 10px;
+        margin-bottom: 15px
+    }
+    .round_slide {
+        display: none
+    }
+    .testimonial_text {
+        padding: 0 0 5px
+    }
+    .table-responsive {
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ccc;
+        border-collapse: collapse;
+        width: 100% !important;
+        margin-bottom: 15px !important
+    }
+    .tourismSectionDynamicData.visa_search_widget {
+        min-height: 63px !important;
+        max-height: 63px !important;
+        margin-top: 0px !important;
+        padding-top: 0px;
+        margin: 0;
+    }
+    .bannerbgImages {
+        background-size: contain !important;
+        background-position: top center !important;
+    }
+    .tourismSectionDynamicData.fiveToursimSection {
+        padding-top: 16px;
+    }
+    .tourismSectionDynamicData {
+        padding-top: 18px;
+    }
+}
+
+@media screen AND (min-width: 768px) AND (max-width:1023px) {
+    .search_box_wrap,
+    .visa_testimonials .container {
+        width: 650px
+    }
+    .search_box,
+    .wid875 {
+        width: 100% !important
+    }
+    .arrow_bg:first-of-type {
+        left: 25px
+    }
+    .arrow_bg:last-of-type {
+        right: 25px
+    }
+    .choose_your_currency:after,
+    .enter_details:after {
+        max-width: 70px;
+        right: -31px
+    }
+    .also_see {
+        padding: 0 15px
+    }
+}
+
+@media screen AND (min-width: 991px) {
+    .gallery_blog img {
+        width: 100%
+    }
+}
+
+@media (min-width: 1024px) {
+    #langCur,
+    #langCurWeather .seasons {
+        height: 250px
+    }
+    .full-border {
+        border: 1px solid #ddd;
+        border-right: 0
+    }
+    .full-border:last-child {
+        border-right: 1px solid #ddd
+    }
+}
+
+@media screen AND (min-width: 1024px) AND (max-width:1100px) {
+    .marR10 {
+        margin-right: 18px
+    }
+    .also_see {
+        padding: 0 25px
+    }
+}
+
+@media screen AND (min-width: 320px) AND (max-width:479px) {
+    .things {
+        padding: 9px 4px
+    }
+}
+
+@media screen AND (min-width: 480px) AND (max-width:599px) {
+    .things {
+        padding: 9px 27px
+    }
+}
+
+@media screen AND (min-width: 599px) AND (max-width:640px) {
+    .things {
+        padding: 9px 27px
+    }
+}
+
+@media screen AND (min-width: 641px) AND (max-width:767px) {
+    .things {
+        padding: 9px 44px
+    }
+}
+
+@media screen AND (min-width: 768px) AND (max-width:1023px) {
+    .things {
+        padding: 9px 22px
+    }
+}
+
+@media screen AND (min-width: 1024px) AND (max-width:1100px) {
+    .things {
+        padding: 9px 37px
+    }
+}
+
+#langCur {
+    padding: 20px 9px;
+}
+
+.season-main .seasons {
+    padding: 20px 0;
+}
+
+.season-main {
+    padding: 0 !important;
+}
+
+/*.season-main .seasons:last-child{border-right: 0px;}*/
+
+.marR10 {
+    margin-right: 0px !important;
+}
+
+.readmore_static_no_more {
+    margin-bottom: 20px;
+}
+
+#langCurWeather .seasons {
+    height: 172px;
+}
+
+.HoneymoonDesti li {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.form-group.feedPolicy p {
+    font-size: 13px !important;
+    line-height: 18px;
+}
+
+@media (min-width: 1024px) {
+    #langCur {
+        height: 226px;
+    }
+    #langCurWeather .seasons {
+        height: 226px;
+    }
+    .full-border {
+        border: 1px solid #ddd;
+        border-right: 0;
+    }
+    .full-border:last-child {
+        border-right: 1px solid #ddd;
+    }
+}
+
+.tourispic {
+    top: 0 !important;
+}
+
+.tourispic img {
+    width: 233px !important;
+    height: 311px !important;
+}
+
+.errorName {
+    color: red;
+    font-size: 11px !important;
+    display: none;
+    white-space: nowrap !important;
+}
+
+.body-outerwrapper .h3,
+.body-outerwrapper h3 {
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.body-outerwrapper .best_time_to_visit_section .h2,
+.body-outerwrapper .best_time_to_visit_section h2 {
+    font-size: 18px !important;
+}
+
+.body-outerwrapper .h4,
+.body-outerwrapper h4 {
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+
+.body-outerwrapper .how_to_reach_section_start h2 p {
+    border-bottom: 0px !important;
+}
+
+h2 p {
+    border-bottom: 0px !important;
+}
+
+.HoneymoonDesti table {
+    background-color: transparent;
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 7px rgba(160, 160, 160, 0.45);
+    margin: 15px 0px;
+}
+
+.HoneymoonDesti table tr {
+    border: 1px solid #ccc;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.how_to_reach_section_start h2 p {
+    border-bottom: 0px !important;
+}
+
+/* form new css */
+
+.form-wrapper {
+    margin-top: -108px;
+    padding: 15px 0 0 0;
+    border-top: 1px solid #000;
+    color: #fff;
+    min-height: 109px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6) !important;
+    box-shadow: 2px -1px 39px -4px rgba(0, 0, 0, .6);
+}
+
+.form-wrapper .container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.formfield-text {
+    color: #000;
+    margin: 4px 0 0 0;
+}
+
+.ibvm {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.crm_form_static_area.have_quries_form_first input#staticPageemail {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 1px solid #cdcdcd;
+}
+
+.formfield input {
+    background: #fff;
+    padding: 6px;
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+}
+
+.formfield-text input {
+    margin: 0 5px 0 0;
+}
+
+.QueriesForm .errorName {
+    color: red;
+    font-size: 11px !important;
+    display: none;
+    white-space: nowrap !important;
+}
+
+.or_separator_login {
+    display: none;
+}
+
+.have_quries_form_first input#staticPagemobile {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.crm_form_static_area.have_quries_form_second .formfield.ibvm select#holidayType {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form-control {
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-control,
+output {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    display: block;
+}
+
+.formfield-text {
+    color: #000;
+    margin: 4px 0 0 0;
+}
+
+.tourispic {
+    top: 0 !important;
+}
+
+.tourispic img {
+    width: 233px !important;
+    height: 311px !important;
+}
+
+.errorName {
+    color: red;
+    font-size: 11px !important;
+    display: none;
+    white-space: nowrap;
+}
+
+.body-outerwrapper .h3,
+.body-outerwrapper h3 {
+    font-size: 18px !important;
+    margin-top: 0 !important;
+}
+
+.body-outerwrapper .best_time_to_visit_section .h2,
+.body-outerwrapper .best_time_to_visit_section h2 {
+    font-size: 18px !important;
+    width: 100%;
+}
+
+.body-outerwrapper .h4,
+.body-outerwrapper h4 {
+    font-size: 16px !important;
+}
+
+.body-outerwrapper .how_to_reach_section_start h2 p {
+    border-bottom: 0px !important;
+}
+
+h2 p {
+    border-bottom: 0px !important;
+}
+
+.HoneymoonDesti table {
+    background-color: transparent;
+    border: 1px solid #eee;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 0 7px rgba(160, 160, 160, 0.45);
+    margin: 15px 0px;
+}
+
+.HoneymoonDesti table td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.how_to_reach_section_start h2 p {
+    border-bottom: 0px !important;
+}
+
+#langCur {
+    padding: 20px 9px;
+}
+
+.season-main .seasons {
+    padding: 20px 0;
+}
+
+.season-main {
+    padding: 0 !important;
+}
+
+/*.season-main .seasons:last-child{border-right: 0px;}*/
+
+.marR10 {
+    margin-right: 0px !important;
+}
+
+.readmore_static_no_more {
+    margin-bottom: 20px;
+}
+
+#langCurWeather .seasons {
+    height: 172px;
+}
+
+.HoneymoonDesti li {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.form-group.feedPolicy p {
+    font-size: 13px !important;
+    line-height: 18px;
+}
+
+.thomas_select {
+    width: 172px !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+.tabs {
+    position: relative;
+    top: 30px;
+}
+
+#main {
+    margin: 50px 0;
+}
+
+#main #faq .card {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+#main #faq .card .card-header {
+    padding: 0;
+    margin: 0;
+    border-bottom: 0 !important;
+}
+
+#main #faq .card .card-header .btn-header-link {
+    color: #fff;
+    display: block;
+    text-align: left;
+    background: #fff;
+    color: #222;
+    padding: 20px;
+    font-size: 18px;
+}
+
+#main #faq .card .card-header .btn-header-link:after {
+    margin-top: 6px;
+    content: " ";
+    border: 1px solid #a6a2b6;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 16px;
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    transform: rotate(225deg);
+    float: right;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed {
+    background: #fff;
+    color: #444;
+    padding: 25px 15px;
+}
+
+#main #faq .card .card-header .btn-header-link.collapsed:after {
+    content: " ";
+    border: 1px solid #a6a2b6;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    float: right;
+}
+
+#bestDomesticPackagesCarousel,
+#bestInternationalPackagesCarousel,
+#featuredBlogsCarousel {
+    padding-top: 0px;
+}
+
+#main #faq .card .collapsing {
+    background: #fff;
+    line-height: 30px;
+}
+
+#main #faq .card .collapse {
+    border: 0;
+}
+
+#main #faq .card .collapse.show {
+    background: #fff;
+    line-height: 30px;
+    color: #222;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.state-name {
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+}
+
+.starting-txt {
+    display: block;
+}
+
+.price-txt {
+    font-size: 18px;
+    color: #0c4da2;
+    font-weight: bold;
+}
+
+.pad-t-60 {
+    padding-top: 60px;
+}
+
+#banner {
+    min-height: 390px;
+}
+
+.pad-t-30 {
+    padding-top: 30px;
+}
+
+h5.month-txt+p {
+    padding-left: 70px !important;
+    font-size: 15px !important;
+    font-family: Poppins !important;
+}
+
+.card-body .card-title {
+    font-size: 16px !important;
+    color: #444;
+}
+
+#tabs {
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-top: 45px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+#tabs .active {
+    background-color: #0e4fa3;
+    color: #fff;
+}
+
+#tabs li {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.12%;
+    text-align: center;
+    padding: 4px;
+    height: 40px;
+    border-right: 1px solid #ccc;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+#tabs li:last-child {
+    border-right: 0 !important;
+    margin-left: -3px;
+    width: 34.13%;
+}
+
+#tabs li:nth-child(2) {
+    width: 32%;
+    margin-left: -5px;
+}
+
+.tab-content.holiday-tabs {
+    display: none;
+}
+
+.container.tab-content.holiday-tabs {
+    border: 1px solid #ccc;
+    padding-left: 0px;
+    padding-right: 0;
+    margin-bottom: 60px;
+    min-height: 100px;
+}
+
+.tab-content.holiday-tabs.active {
+    display: block;
+}
+
+.holiday-amt {
+    color: #0c4da2;
+    font-weight: bold;
+}
+
+.place-to-visit-img {
+    min-height: 200px !important;
+    max-height: 200px !important;
+    width: 360px;
+    border-radius: 10px 10px 0 0;
+}
+
+.readmore_static_no_more ul {
+    padding-inline-start: 18px;
+}
+
+.subtxt {
+    font-size: 14px !important;
+}
+
+.li-select-active {
+    background: linear-gradient(to right, #8A19E2, #0094DA) !important;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    color: #fff;
+    padding: 2px 20px !important;
+    font-weight: bold;
+    border: 0px solid transparent !important;
+}
+
+.li-select-active a {
+    color: #fff !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.placedetailblk {
+    width: 30.5%;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    border: 1px solid #f0f0f0;
+    background: #fff;
+    margin: 0 30px 18px 0;
+    border-radius: 10px;
+    min-height: 355px !important;
+    max-height: 355px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+.placedetailwraper .placedetailblk {
+    height: auto;
+}
+
+.container.tabs {
+    width: 1132px;
+}
+
+.faq-new {
+    padding-left: 0;
+}
+
+.card-text p:nth-child(n+3) {
+    display: none;
+}
+
+#photos img,
+.youtube iframe {
+    min-height: 250px !important;
+    max-height: 250px !important;
+    border-radius: 10px;
+}
+
+.photo_are_all_sections {
+    padding-top: 20px;
+}
+
+.placevisittxtblk {
+    min-height: auto;
+}
+
+.placevisittxtblk {
+    padding: 5px 10px;
+}
+
+.placetxt {
+    font-size: 16px !important;
+    line-height: 18px;
+    color: #000 !important;
+    font-weight: 700 !important;
+    padding: 0 0 10px !important;
+}
+
+.placetxt {
+    min-height: 16px;
+    padding: 0 !important;
+    display: block;
+    margin: 0;
+    padding-top: 10px !important;
+    margin-bottom: 10px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.placetxt a {
+    color: #333 !important;
+    font-weight: bold;
+}
+
+.list-unstyled {
+    display: flex;
+}
+
+.li_me_select a:hover {
+    text-decoration: none;
+}
+
+.li_me_select {
+    font-size: 13px !important;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 20px !important;
+    background: linear-gradient(to right, white, white), linear-gradient(to right, #8A19E2, #0094DA);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    padding: 0px 20px;
+    border-radius: 50px;
+    width: auto !important;
+    height: 31px;
+    font-weight: bold;
+}
+
+.li_me_select a {
+    color: #444444;
+    font-weight: normal;
+}
+
+.visitfildwrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.init_all_label {
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.nav-tabs.nav-justified {
+    display: block !important;
+}
+
+#banner .carousel-item .bannerbgImages {
+    min-height: 390px;
+}
+
+div.stick#stickThis {
+    transition: .9s;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background: #000 !important;
+    bottom: auto;
+    margin-top: 0;
+    opacity: 1;
+    color: #fff;
+    height: auto;
+    width: 100%;
+    padding: 50px 0px;
+}
+
+#descBestTimeToVisit.readmore_static.more_all_big_no .tc_all_details {
+    position: relative;
+    overflow: hidden;
+}
+
+#descBestTimeToVisit.readmore_static.more_all_big_no .tc_all_details span.read-less {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.placeuptxtblk a {
+    color: #444;
+}
+
+/* .tourismSectionDynamicData.PhotoGallery h2 {
+    padding-left: 15px !important;
+} */
+
+.tc_all_details .row.col-sm-11.col-xs-12 {
+    margin-bottom: 25px;
+}
+
+.bannerbgImages {
+    min-height: 390px !important;
+}
+
+@media screen AND (min-width: 320px) AND (max-width:767px) {
+    .bannerbgImages {
+        min-height: 220px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    div#stickThis .container.clearfix {
+        z-index: 999;
+    }
+    .formfield-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .tourismSectionDynamicData.visa_search_widget {
+        min-height: 106px !important;
+        max-height: 106px !important;
+    }
+    .crm_form_static_area.have_quries_form_first {
+        width: 100%;
+    }
+    button.mob-view-more {
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 30px !important;
+        margin-bottom: 25px;
+    }
+}
